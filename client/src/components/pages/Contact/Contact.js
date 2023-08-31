@@ -8,7 +8,7 @@ import Typewriter from "typewriter-effect";
 const Contact = () => {
   return (
     <div
-      className="w-full h-screen font-LGaramond flex flex-col justify-center items-center "
+      className="w-full h-screen font-LGaramond flex flex-col justify-center items-center px-20"
       id="contact"
     >
       <div className="pages text-center text-[#469DF0] font-LGaramond uppercase font-bold">
@@ -41,7 +41,7 @@ const Contact = () => {
       >
         {}
       </motion.div> */}
-      <div className=" w-3/4 h-3/4 flex justify-evenly border-4 border-indigo-200 border-x-indigo-500 p-4">
+      <div className=" w-3/4 h-3/4 flex justify-evenly border-4 border-indigo-200 border-x-indigo-500">
         <SocialsColumn />
         <motion.div
           className="bg-[#101D51] w-0.5 h-11/12 rounded-md m-2 "

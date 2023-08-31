@@ -38,7 +38,7 @@ const Form = () => {
   return (
     <div className="w-3/6 flex flex-col justify-center items-center text-[#469DF0]">
       <form ref={form} onSubmit={sendEmail} className="w-full">
-        <div className="p-2 m-2 flex flex-col">
+        <div className="p-2  flex flex-col">
           <label>Full Name </label>
           <input
             type="text"
@@ -48,7 +48,7 @@ const Form = () => {
             className="rounded-md"
           />
         </div>
-        <div className="p-2 m-2 flex flex-col">
+        <div className="p-2  flex flex-col">
           <label>Email </label>
           <input
             type="email"
@@ -58,7 +58,7 @@ const Form = () => {
             className="rounded-md"
           />
         </div>
-        <div className="p-2 m-2 flex flex-col">
+        <div className="p-2  flex flex-col">
           <label>Message</label>
           <textarea
             name="message"

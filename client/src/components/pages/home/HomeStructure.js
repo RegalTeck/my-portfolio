@@ -13,16 +13,16 @@ const HomeStructure = ({ setShowModal }) => {
   return (
     // <div className=" w-full  h-screen" id="/">
     <div
-      className="h-screen w-full flex items-center justify-around gap-2 px-6 py-4"
+      className="h-screen w-full flex items-center justify-around gap-2 p-20"
       id="/"
     >
-      <div className="w-2/5  ml-4  mt-4 flex-1">
+      <div className="w-2/5 mt-4">
         <BioDescription />
       </div>
-      <div className="w-2/6 flex-4  mt-4 ">
+      <div className="w-2/6 mt-4">
         <BioImage />
       </div>
-      <div className="w-1/4 mr-4  mt-4">
+      <div className="w-1/4 mt-4">
         <BioQoute />
       </div>
     </div>

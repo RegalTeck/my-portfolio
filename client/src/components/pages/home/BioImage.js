@@ -1,5 +1,5 @@
 import React from "react";
-import AvatarImage from "./assets/AvatarImage.png";
+import homeimg from "./assets/homeimg.png";
 import { motion } from "framer-motion";
 
 const BioImage = () => {
@@ -14,11 +14,11 @@ const BioImage = () => {
   };
   return (
     <motion.div
-      className="w-full h-screen"
+      className="w-full"
       variants={imageContainer}
       // whileHover="hover"
     >
-      <img src={AvatarImage} alt="logo" />
+      <img src={homeimg} alt="my image" />
     </motion.div>
   );
 };

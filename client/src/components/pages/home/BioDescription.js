@@ -20,29 +20,20 @@ const BioDescription = () => {
         variants={contentVariants}
         animate="animate"
         whileHover="hover"
-        className="text-[#469DF0] rounded-md p-2"
+        className="text-[#469DF0] rounded-md"
       >
         My name is Adewale Victor Adeboye,
       </motion.div>
-      <motion.div className="mt-3 ">
-        As an enthusiastic Frontend Developer, I bring to the table a rich blend
+      <motion.div className="">
+        As an enthusiastic software Developer, I bring to the table a rich blend
         of creativity, problem-solving abilities and good team spirit.
-        <br /> With over 8 months of experience, I have built scalable projects
-        using React.Js, Redux, CSS, Tailwind, and other cutting-edge
-        technologies .
-      </motion.div>
-      <motion.div
-        // variants={contentVariants}
-        // animate="animate"
-        // whileHover="hover"
-        className=" rounded-md mt-2 font-LGaramond"
-      >
-        <span className="text-[#469DF0]  ">At this juncture,</span> my primary
-        objective is to secure a dynamic frontend internship that will foster my
-        continuous advancement.
+        <br /> Having trained as a full-stack developer,I have refined my
+        software expertise, demonstrated through the scalable projects i have
+        worked on, utilizing React.js, Redux, Node.js, Express and API
+        integration.
       </motion.div>
 
-      <div className="flex gap-4 mt-4 w-full">
+      <div className="flex gap-4 w-full">
         <Resume /> <Connect />
       </div>
     </div>

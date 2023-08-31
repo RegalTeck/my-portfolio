@@ -34,7 +34,7 @@ const App = () => {
     //   </BrowserRouter>
     // </div>
 
-    <div className="bg-[#101D51] bg-cover bg-center text-white">
+    <div className="bg-[#101D51]  bg-cover bg-center text-white">
       {/* <OpeningName openingName={openingName} setOpeningName={setOpeningName} /> */}
       <Modal
         showModal={showModal}
@@ -43,11 +43,10 @@ const App = () => {
       />
       <AnimatePresence wait onExitComplete={() => setShowModal(false)}>
         <Header />
-
         <HomeStructure setShowModal={setShowModal} />
         <Project />
         <About />
-        <Education />
+        {/* <Education /> */}
         <Certification />
         <Skills />
         <Testimonial />

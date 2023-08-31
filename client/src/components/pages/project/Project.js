@@ -27,21 +27,21 @@ const Project = () => {
   };
 
   return (
-    <div className="w-full h-screen  font-LGaramond" id="project">
+    <div className="w-full h-screen  font-LGaramond px-20" id="project">
       <div className="pages text-center text-[#469DF0] font-LGaramond uppercase font-bold">
         Projects
       </div>
-      <div className=" grid grid-cols-3 gap-2 p-4">
+      <div className=" grid grid-cols-3">
         <motion.div
           variants={contentVariants}
           whileHover="hover"
-          className="ml-4 	border-4 border-indigo-200 border-x-indigo-500 p-4"
+          className="border-4 border-indigo-200 border-x-indigo-500"
         >
           <div className="">
             <div>
               <img src={ArtstheticImg} alt="artsthetic" />
             </div>
-            <div className="flex gap-2 justify-between ">
+            <div className="flex justify-between ">
               <div className="w-4/6">
                 <h2 className="text-[#469DF0]">Artsthetic AI</h2>
                 <p>An Image generation AI application</p>
@@ -49,11 +49,11 @@ const Project = () => {
                 <div>icons</div>
               </div>
               <div className="w-1/5 block">
-                <div className="grid gap-2 grid-start">
+                <div className="grid grid-start">
                   <motion.button
                     variants={buttonVariants}
                     whileHover="hover"
-                    className="hover:text-[#469DF0] rounded-md p-2 uppercase text-sm"
+                    className="hover:text-[#469DF0] rounded-md uppercase text-sm"
                   >
                     <a
                       href="https://artsthetic-ai-vkr5.onrender.com/"
@@ -67,7 +67,7 @@ const Project = () => {
                   <motion.button
                     variants={buttonVariants}
                     whileHover="hover"
-                    className="hover:text-[#469DF0] rounded-md p-2 uppercase text-sm"
+                    className="hover:text-[#469DF0] rounded-md uppercase text-sm"
                   >
                     <a
                       href="https://github.com/RegalTeck/ARTSTHETIC-AI"
@@ -81,7 +81,7 @@ const Project = () => {
                   <motion.button
                     variants={buttonVariants}
                     whileHover="hover"
-                    className="hover:text-[#469DF0] rounded-md p-2 "
+                    className="hover:text-[#469DF0] rounded-md"
                   >
                     <FavoriteBorderOutlinedIcon />
                   </motion.button>{" "}
@@ -93,13 +93,13 @@ const Project = () => {
         <motion.div
           variants={contentVariants}
           whileHover="hover"
-          className="ml-4 	border-4 border-indigo-200 border-x-indigo-500 p-4"
+          className="border-4 border-indigo-200 border-x-indigo-500"
         >
           <div className="">
             <div>
               <img src={ArtstheticImg} alt="artsthetic" />
             </div>
-            <div className="flex gap-2 justify-between ">
+            <div className="flex justify-between ">
               <div className="w-4/6">
                 <h2 className="text-[#469DF0]">Artsthetic AI</h2>
                 <p>An Image generation AI application</p>
@@ -107,11 +107,11 @@ const Project = () => {
                 <div>icons</div>
               </div>
               <div className="w-1/5 block">
-                <div className="grid gap-2 grid-start">
+                <div className="grid grid-start">
                   <motion.button
                     variants={buttonVariants}
                     whileHover="hover"
-                    className="hover:text-[#469DF0] rounded-md p-2 uppercase text-sm"
+                    className="hover:text-[#469DF0] rounded-md uppercase text-sm"
                   >
                     <a
                       href="https://artsthetic-ai-vkr5.onrender.com/"
@@ -125,7 +125,7 @@ const Project = () => {
                   <motion.button
                     variants={buttonVariants}
                     whileHover="hover"
-                    className="hover:text-[#469DF0] rounded-md p-2 uppercase text-sm"
+                    className="hover:text-[#469DF0] rounded-md uppercase text-sm"
                   >
                     <a
                       href="https://github.com/RegalTeck/ARTSTHETIC-AI"
@@ -139,7 +139,7 @@ const Project = () => {
                   <motion.button
                     variants={buttonVariants}
                     whileHover="hover"
-                    className="hover:text-[#469DF0] rounded-md p-2 "
+                    className="hover:text-[#469DF0] rounded-md "
                   >
                     <FavoriteBorderOutlinedIcon />
                   </motion.button>{" "}
@@ -152,13 +152,13 @@ const Project = () => {
         <motion.div
           variants={contentVariants}
           whileHover="hover"
-          className="ml-4 	border-4 border-indigo-200 border-x-indigo-500 p-4"
+          className="	border-4 border-indigo-200 border-x-indigo-500"
         >
           <div className="">
             <div>
               <img src={ArtstheticImg} alt="artsthetic" />
             </div>
-            <div className="flex gap-2 justify-between ">
+            <div className="flex justify-between ">
               <div className="w-4/6">
                 <h2 className="text-[#469DF0]">Artsthetic AI</h2>
                 <p>An Image generation AI application</p>
@@ -166,11 +166,11 @@ const Project = () => {
                 <div>icons</div>
               </div>
               <div className="w-1/5 block">
-                <div className="grid gap-2 grid-start">
+                <div className="grid grid-start">
                   <motion.button
                     variants={buttonVariants}
                     whileHover="hover"
-                    className="hover:text-[#469DF0] rounded-md p-2 uppercase text-sm"
+                    className="hover:text-[#469DF0] rounded-md uppercase text-sm"
                   >
                     <a
                       href="https://artsthetic-ai-vkr5.onrender.com/"
@@ -184,7 +184,7 @@ const Project = () => {
                   <motion.button
                     variants={buttonVariants}
                     whileHover="hover"
-                    className="hover:text-[#469DF0] rounded-md p-2 uppercase text-sm"
+                    className="hover:text-[#469DF0] rounded-md uppercase text-sm"
                   >
                     <a
                       href="https://github.com/RegalTeck/ARTSTHETIC-AI"
@@ -198,7 +198,7 @@ const Project = () => {
                   <motion.button
                     variants={buttonVariants}
                     whileHover="hover"
-                    className="hover:text-[#469DF0] rounded-md p-2 "
+                    className="hover:text-[#469DF0] rounded-md"
                   >
                     <FavoriteBorderOutlinedIcon />
                   </motion.button>{" "}

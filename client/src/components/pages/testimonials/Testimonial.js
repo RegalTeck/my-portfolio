@@ -3,7 +3,7 @@ import linkdinRecommendationImg1 from "./assets/linkdinRecommendationImg1.PNG";
 
 const Testimonial = () => {
   return (
-    <div className="w-full h-screen font-LGaramond" id="testimonial">
+    <div className="w-full h-screen font-LGaramond px-20" id="testimonial">
       <div className="h-full">
         <div className="pages text-center text-[#469DF0] font-LGaramond uppercase font-bold mb-2">
           Testimonials and Recommendation

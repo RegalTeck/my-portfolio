@@ -62,7 +62,7 @@ const Skills = () => {
   };
 
   return (
-    <div className="w-full h-screen font-LGaramond" id="skills">
+    <div className="w-full h-screen font-LGaramond px-20" id="skills">
       <div className="pages text-center text-[#469DF0] font-LGaramond uppercase font-bold mt-4">
         Skills
       </div>

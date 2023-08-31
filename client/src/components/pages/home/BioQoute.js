@@ -20,7 +20,7 @@ const BioQoute = () => {
         variants={contentVariants}
         animate="animate"
         whileHover="hover"
-        className="text-[#469DF0] rounded-md p-2 font-LGaramond"
+        className="text-[#469DF0] rounded-md font-LGaramond"
       >
         <Typewriter
           options={{
@@ -34,7 +34,7 @@ const BioQoute = () => {
           }}
         />
       </motion.div>
-      <div className="mt-8 flex justify-center">
+      <div className=" flex justify-center">
         <div></div>
         <Socials />
       </div>

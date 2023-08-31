@@ -82,7 +82,8 @@ const NavBar = () => {
               About
             </Link>
           </motion.li>
-          <motion.li
+
+          {/* <motion.li
             className=" rounded-md p-2"
             variants={liVariants}
             initial="initial"
@@ -98,7 +99,7 @@ const NavBar = () => {
             >
               Education
             </Link>
-          </motion.li>
+          </motion.li> */}
 
           <motion.li
             className=" rounded-md p-2"
