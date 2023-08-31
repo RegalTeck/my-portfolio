@@ -12,7 +12,7 @@ const Resume = () => {
     const Adewale_Adeboye_Resume = url.split("/").pop();
     const aTag = document.createElement("a");
     aTag.href = url;
-    aTag.setAttribute("download", "Adewale_Adeboye_Resume");
+    aTag.setAttribute("download", "Adewale Victor Adeboye Resume");
     document.body.appendChild(aTag);
     aTag.click();
     aTag.remove();
