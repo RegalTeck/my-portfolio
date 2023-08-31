@@ -31,7 +31,7 @@ const Project = () => {
       <div className="pages text-center text-[#469DF0] font-LGaramond uppercase font-bold">
         Projects
       </div>
-      <div className=" grid grid-cols-3">
+      <div className=" grid grid-cols-3 gap-4">
         <motion.div
           variants={contentVariants}
           whileHover="hover"
