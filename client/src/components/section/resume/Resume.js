@@ -5,7 +5,7 @@ import VisibilityOutlinedIcon from "@mui/icons-material/VisibilityOutlined";
 import { Download } from "@mui/icons-material";
 
 const RESUME_File_URL =
-  "http://localhost:3000/Adewale_Victor_Adeboye_Resume.pdf";
+  "http://localhost:3000/Adewale Victor Adeboye Resume.pdf";
 
 const Resume = () => {
   const downloadFileAtURL = (url) => {
@@ -59,7 +59,7 @@ const Resume = () => {
             </button>
             <button className="flex gap-1 hover:bg-blue-900 p-1 rounded-md">
               <a
-                href="https://drive.google.com/file/d/1odJXUWYrchPiQtKDMXQXpF7zWYnAsqTi/view?usp=drive_link"
+                href="https://drive.google.com/file/d/1fGjoQE_fuPHSfvju78YAvIRJXiAibm7x/view?usp=drive_link"
                 aria-label="View CV"
                 rel="noopener"
                 target="_blank"
