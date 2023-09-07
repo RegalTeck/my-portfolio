@@ -15,12 +15,12 @@ const BioQoute = () => {
     hover: { scale: 1.1 },
   };
   return (
-    <div className="">
+    <div className="grid grid-col h-full">
       <motion.div
         variants={contentVariants}
         animate="animate"
         whileHover="hover"
-        className="text-[#469DF0] rounded-md font-LGaramond"
+        className="text-[#469DF0] rounded-md font-LGaramond self-start"
       >
         <Typewriter
           options={{
@@ -34,9 +34,9 @@ const BioQoute = () => {
           }}
         />
       </motion.div>
-      <div className=" flex justify-center">
-        <div></div>
+      <div className=" flex self-end justify-center">
         <Socials />
+        <div></div>
       </div>
     </div>
   );

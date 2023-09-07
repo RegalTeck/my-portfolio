@@ -18,7 +18,7 @@ const BioImage = () => {
       variants={imageContainer}
       // whileHover="hover"
     >
-      <img src={homeimg} alt="my image" />
+      <img src={homeimg} alt="my image" className="rounded-full	" />
     </motion.div>
   );
 };

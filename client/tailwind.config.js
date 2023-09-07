@@ -20,7 +20,7 @@ module.exports = {
 
     extend: {
       fontFamily: {
-        LGaramond: ['Cormorant Garamond', 'serif'],
+        LGaramond: ["Nunito", "sans-serif"],
       },
     },
   },

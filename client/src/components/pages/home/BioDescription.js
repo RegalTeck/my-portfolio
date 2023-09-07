@@ -15,7 +15,7 @@ const BioDescription = () => {
     hover: { scale: 1.1 },
   };
   return (
-    <div className="text-white w-full font-LGaramond">
+    <div className="text-white grid grid-col gap-6 w-full font-LGaramond">
       <motion.div
         variants={contentVariants}
         animate="animate"
@@ -24,13 +24,12 @@ const BioDescription = () => {
       >
         My name is Adewale Victor Adeboye,
       </motion.div>
+
       <motion.div className="">
         As an enthusiastic software Developer, I bring to the table a rich blend
-        of creativity, problem-solving abilities and good team spirit.
-        <br /> Having trained as a full-stack developer,I have refined my
-        software expertise, demonstrated through the scalable projects i have
-        worked on, utilizing React.js, Redux, Node.js, Express and API
-        integration.
+        of creativity, problem-solving abilities and good team spirit. With high
+        efficiency in using modern cutting edge technologies to build scalable
+        projects.
       </motion.div>
 
       <div className="flex gap-4 w-full">

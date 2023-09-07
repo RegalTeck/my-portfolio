@@ -22,7 +22,7 @@ const HomeStructure = ({ setShowModal }) => {
       <div className="w-2/6 mt-4">
         <BioImage />
       </div>
-      <div className="w-1/4 mt-4">
+      <div className="w-1/4 h-3/5		 mt-4">
         <BioQoute />
       </div>
     </div>

@@ -3,6 +3,7 @@ import { Link } from "react-scroll";
 import MenuItems from "./MenuItems";
 import { MenuOutlined } from "@mui/icons-material";
 import { motion } from "framer-motion";
+import DropDown from "./DropDown";
 
 const NavBar = () => {
   const liVariants = {
@@ -65,6 +66,7 @@ const NavBar = () => {
               Projects
             </Link>
           </motion.li>
+
           <motion.li
             className=" rounded-md p-2"
             variants={liVariants}
@@ -72,15 +74,7 @@ const NavBar = () => {
             animate="animate"
             whileHover="hover"
           >
-            <Link
-              to="about"
-              smooth={true}
-              offset={-100}
-              duration={1000}
-              className="cursor-pointer"
-            >
-              About
-            </Link>
+            <DropDown className="cursor-pointer" />
           </motion.li>
 
           {/* <motion.li
@@ -101,59 +95,6 @@ const NavBar = () => {
             </Link>
           </motion.li> */}
 
-          <motion.li
-            className=" rounded-md p-2"
-            variants={liVariants}
-            initial="initial"
-            animate="animate"
-            whileHover="hover"
-          >
-            <Link
-              to="certification"
-              smooth={true}
-              offset={-100}
-              duration={1000}
-              className="cursor-pointer"
-            >
-              Certification
-            </Link>
-          </motion.li>
-
-          <motion.li
-            className=" rounded-md p-2"
-            variants={liVariants}
-            initial="initial"
-            animate="animate"
-            whileHover="hover"
-          >
-            <Link
-              to="skills"
-              smooth={true}
-              offset={-100}
-              duration={1000}
-              className="cursor-pointer"
-            >
-              Skills
-            </Link>
-          </motion.li>
-
-          <motion.li
-            className=" rounded-md p-2"
-            variants={liVariants}
-            initial="initial"
-            animate="animate"
-            whileHover="hover"
-          >
-            <Link
-              to="testimonial"
-              smooth={true}
-              offset={-100}
-              duration={1000}
-              className="cursor-pointer"
-            >
-              Testimonials
-            </Link>
-          </motion.li>
           <motion.li
             className=" rounded-md p-2"
             variants={liVariants}
