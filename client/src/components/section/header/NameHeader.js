@@ -27,7 +27,7 @@ const NameHeader = () => {
     <div>
       <motion.button
         onClick={() => scroll.scrollToTop()}
-        className=" text-lg font-bold font-LGaramond text-center rounded-md p-2 "
+        className="myname font-bold font-LGaramond text-center rounded-md p-2 "
         variants={nameVariants}
         initial="initial"
         animate="animate"

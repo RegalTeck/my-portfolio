@@ -15,12 +15,12 @@ const BioDescription = () => {
     hover: { scale: 1.1 },
   };
   return (
-    <div className="text-white grid grid-col gap-6 w-full font-LGaramond">
+    <div className="  grid grid-col gap-6 w-full text-white font-LGaramond">
       <motion.div
         variants={contentVariants}
         animate="animate"
         whileHover="hover"
-        className="text-[#469DF0] rounded-md"
+        className="text-[#469DF0] rounded-md text-center"
       >
         My name is Adewale Victor Adeboye,
       </motion.div>
@@ -33,7 +33,7 @@ const BioDescription = () => {
       </motion.div>
 
       <div className="flex gap-4 w-full">
-        <Resume /> <Connect />
+        <Connect /> <Resume />
       </div>
     </div>
   );

@@ -5,16 +5,16 @@ import { Link } from "react-scroll";
 
 const Connect = () => {
   return (
-    <div className="flex p-2">
+    <motion.div
+      className="flex justify-center align-center p-2 border-2 border-[#469DF0]"
+      whileHover={{
+        scale: 1.1,
+        boxShadow: "0px 0px 8px rgb(255,255,255)",
+      }}
+      transition={{ type: "spring", stiffness: 300 }}
+    >
       <div>
-        <motion.button
-          className="section font-LGaramond text-[#469DF0] uppercase font-bold rounded-md"
-          whileHover={{
-            scale: 1.1,
-            boxShadow: "0px 0px 8px rgb(255,255,255)",
-          }}
-          transition={{ type: "spring", stiffness: 300 }}
-        >
+        <button className="section font-LGaramond text-[#469DF0] uppercase font-bold rounded-md center">
           <Link
             to="contact"
             smooth={true}
@@ -25,12 +25,12 @@ const Connect = () => {
             {" "}
             GET IN TOUCH
           </Link>
-        </motion.button>
+        </button>
       </div>
       <div className="section animate-bounce  h-4">
         <KeyboardDoubleArrowDownIcon />
       </div>
-    </div>
+    </motion.div>
   );
 };
 export default Connect;

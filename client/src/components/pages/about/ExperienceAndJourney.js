@@ -3,7 +3,7 @@ import Resume from "../../section/resume/Resume";
 import Connect from "../../section/getInTouch/Connect";
 import { motion } from "framer-motion";
 
-const About = () => {
+const ExperienceAndJourney = () => {
   const contentVariants = {
     animate: {
       boxShadow: "0px 0px 8px rgb(255,255,255)",
@@ -14,14 +14,29 @@ const About = () => {
     },
   };
   return (
-    <div className="w-full h-screen font-LGaramond px-20" id="about">
-      <div className="pages text-center text-[#469DF0] uppercase font-bold">
+    <div className="w-full h-screen font-LGaramond px-20" id="experience">
+      {/* <div className="pages text-center text-[#469DF0] uppercase font-bold">
         About Me
-      </div>
+      </div> */}
       <div className=" flex items-center justify-even h-3/4 gap-5">
         <div className="w-7/12 self-start">
-          <div className="text-[#469DF0] mb-2">Experience</div>
-
+          <div className="text-[#469DF0] uppercase">Experience</div>
+          <div className="w-full flex justify-start align-center mb-4">
+            <motion.div
+              className="bg-[#469DF0] h-0.5 w-16 rounded-md text-center"
+              initial={{
+                opacity: 0,
+              }}
+              animate={{
+                opacity: 1,
+                scale: 1.1,
+                boxShadow: "0px 0px 8px rgb(255,255,255)",
+              }}
+            >
+              {}
+            </motion.div>
+            <div></div>
+          </div>
           <div className="grid grid-col gap-2 ">
             <div className="flex justify-around align-center">
               <div>
@@ -35,7 +50,7 @@ const About = () => {
                 On-Site. 11/2022 – 05/2023
               </div>
             </div>
-            <hr />
+            <hr className="bg-[#469DF0]" />
             <div>
               • Used the latest front-end technologies,to build interactive
               interfaces.
@@ -62,23 +77,39 @@ const About = () => {
         </div>
 
         <div className="w-5/12 self-end mb-2">
-          <div className="text-[#469DF0] mb-2">Journey</div>
-
+          <div className="text-[#469DF0] uppercase">Journey</div>
+          <div className="w-full flex justify-start align-center mb-4">
+            <motion.div
+              className="bg-[#469DF0] h-0.5 w-12 rounded-md text-center"
+              initial={{
+                opacity: 0,
+              }}
+              animate={{
+                opacity: 1,
+                scale: 1.1,
+                boxShadow: "0px 0px 8px rgb(255,255,255)",
+              }}
+            >
+              {}
+            </motion.div>
+            <div></div>
+          </div>
           <motion.div
             // variants={contentVariants}
             // animate="animate"
             // whileHover="hover"
             className=""
           >
-            After bagging my Bsc.Certificate in Mass Communication I embarked on
-            a transformative journey to software development. I underwent a
-            rigorous full stack javascript training at GoMyCode, one of the
-            topmost bootcamp in Nigeria. Where I learnt how to use MERN stack
-            technologies to build wide range of projects.
-            <br />
-            <span className="text-[#469DF0] ">Looking ahead,</span> my
-            aspiration is to expand my skill set to React Native for Apps
-            development.
+            After bagging my Bsc. Certificate in Mass Communication,
+            <br /> I embarked on a transformative journey to software
+            development. I underwent a rigorous full stack javascript training
+            at GoMyCode, one of the topmost bootcamp in Nigeria. Where I learnt
+            how to use MERN stack technologies to build wide range of projects.
+            <div className="mt-2">
+              <span className="text-[#469DF0]">Looking ahead,</span> my
+              aspiration is to expand my skill set to React Native for Apps
+              development.
+            </div>
           </motion.div>
         </div>
       </div>
@@ -86,4 +117,4 @@ const About = () => {
   );
 };
 
-export default About;
+export default ExperienceAndJourney;

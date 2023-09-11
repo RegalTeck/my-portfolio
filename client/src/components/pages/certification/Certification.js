@@ -20,6 +20,22 @@ const Certification = () => {
           <div className="pages text-center text-[#469DF0] font-LGaramond uppercase font-bold">
             Certification
           </div>
+          <div className="w-full flex justify-center align-center mb-4">
+            <motion.div
+              className="bg-[#469DF0] h-0.5 w-20 rounded-md text-center"
+              initial={{
+                opacity: 0,
+              }}
+              animate={{
+                opacity: 1,
+                scale: 1.1,
+                boxShadow: "0px 0px 8px rgb(255,255,255)",
+              }}
+            >
+              {}
+            </motion.div>
+            <div></div>
+          </div>
           <div className="">
             <div className="w-2/5">
               <img
@@ -52,6 +68,22 @@ const Certification = () => {
         <div className="w-5/12 self-end ">
           <div className="pages text-center text-[#469DF0] font-LGaramond uppercase font-bold">
             Awards
+          </div>
+          <div className="w-full flex justify-center align-center mb-4">
+            <motion.div
+              className="bg-[#469DF0] h-0.5 w-14 rounded-md text-center"
+              initial={{
+                opacity: 0,
+              }}
+              animate={{
+                opacity: 1,
+                scale: 1.1,
+                boxShadow: "0px 0px 8px rgb(255,255,255)",
+              }}
+            >
+              {}
+            </motion.div>
+            <div></div>
           </div>
           <div className="  ">
             <div className="w-2/5">

@@ -3,7 +3,7 @@ import React, { useState } from "react";
 import HomeStructure from "./components/pages/home/HomeStructure";
 import Header from "./components/section/header/Header";
 import Project from "./components/pages/project/Project";
-import About from "./components/pages/about/About";
+import ExperienceAndJourney from "./components/pages/about/ExperienceAndJourney";
 import Education from "./components/pages/education/Education";
 import Certification from "./components/pages/certification/Certification";
 import Testimonial from "./components/pages/testimonials/Testimonial";
@@ -34,7 +34,7 @@ const App = () => {
     //   </BrowserRouter>
     // </div>
 
-    <div className="bg-[#101D51] text-sm  bg-cover bg-center text-white">
+    <div className="textSize bg-[#101D51] text-white pt-2">
       {/* <OpeningName openingName={openingName} setOpeningName={setOpeningName} /> */}
       <Modal
         showModal={showModal}
@@ -45,10 +45,10 @@ const App = () => {
         <Header />
         <HomeStructure setShowModal={setShowModal} />
         <Project />
-        <About />
+        <ExperienceAndJourney />
         {/* <Education /> */}
-        <Certification />
         <Skills />
+        <Certification />
         <Testimonial />
         <Contact />
       </AnimatePresence>

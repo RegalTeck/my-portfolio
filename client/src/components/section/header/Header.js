@@ -6,16 +6,17 @@ import NavBar from "./NavBar";
 
 const Header = () => {
   return (
-    <div className="bg-[#101D51] fixed w-screen text-white flex justify-around items-center">
-      <div className="flex justify-center align-center gap-4">
-        <NameHeader />
-        <div>
-          <Resume />
-        </div>
-      </div>
-      <div>
-        <NavBar />
-      </div>
+    <div className="bg-[#101D51] fixed w-screen text-white flex justify-around items-center px-6">
+      {/* <div className="flex justify-center align-center gap-4"> */}
+      <NameHeader />
+      {/* <div> */}
+      <NavBar />
+
+      {/* </div> */}
+      {/* </div>
+      <div> */}
+      <Resume />
+      {/* </div> */}
     </div>
   );
 };

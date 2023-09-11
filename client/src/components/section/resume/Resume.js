@@ -4,6 +4,12 @@ import DownloadForOfflineOutlinedIcon from "@mui/icons-material/DownloadForOffli
 import VisibilityOutlinedIcon from "@mui/icons-material/VisibilityOutlined";
 import { Download } from "@mui/icons-material";
 
+import {
+  AiOutlineCaretUp,
+  AiOutlineCaretDown,
+  AiOutlineCaretRight,
+} from "react-icons/ai";
+
 const RESUME_File_URL =
   "http://localhost:3000/Adewale Victor Adeboye Resume.pdf";
 
@@ -32,21 +38,31 @@ const Resume = () => {
   };
   return (
     <motion.div
-      className="rounded-md flex p-1 mt-1.5 font-LGaramond"
+      className="flex p-2 border-2 border-[#469DF0] font-LGaramond"
       variants={resumeVariants}
       whileHover="whileHover"
     >
       <div>
-        <div
-          className=" text-[#469DF0] uppercase font-bold"
-          transition={{ layout: { duration: 1 } }}
-          layout
-          onClick={() => setIsOpen(!isOpen)}
-        >
-          <motion.button className="section uppercase" layout="position">
-            Resume{" "}
-          </motion.button>
+        <div className="flex justify-start gap-2">
+          <div
+            className=" text-[#469DF0] uppercase font-bold"
+            transition={{ layout: { duration: 1 } }}
+            layout
+            onClick={() => setIsOpen(!isOpen)}
+          >
+            <motion.button className="section uppercase" layout="position">
+              Resume
+            </motion.button>
+          </div>
+          <button onClick={() => setIsOpen(!isOpen)}>
+            {!isOpen ? (
+              <AiOutlineCaretDown className="hidden " />
+            ) : (
+              <AiOutlineCaretUp color="#469DF0" fontSize="16px" />
+            )}
+          </button>
         </div>
+
         {isOpen && (
           <motion.div className="flex border-2 border-indigo-200 border-x-indigo-500	text-xs">
             <button
@@ -70,6 +86,7 @@ const Resume = () => {
           </motion.div>
         )}
       </div>
+
       <span class="relative flex h-3 w-3">
         <span class="animate-ping absolute inline-flex h-full w-full rounded-full bg-sky-400 opacity-75"></span>
         <span class="relative inline-flex rounded-full h-3 w-3 bg-sky-500"></span>
