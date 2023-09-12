@@ -14,7 +14,7 @@ const Contact = () => {
       <div className="pages text-center text-[#469DF0] font-LGaramond uppercase font-bold">
         Contact
       </div>
-      <div className="w-full flex justify-center align-center mb-4">
+      <div className="w-full flex justify-center align-center mb-10">
         <motion.div
           className="bg-[#469DF0] h-0.5 w-14 rounded-md text-center"
           initial={{
@@ -30,9 +30,11 @@ const Contact = () => {
         </motion.div>
         <div></div>
       </div>
-      <div className="text-center">
+      <div className="myname text-center">
         Get in touch with me
-        <div>Offers, connection, Send me a message</div>
+        <div className="mb-4">
+          <span className="text-[#469DF0]">Send a message,</span> let's connect
+        </div>
         {/* <Typewriter
           options={{
             autoStart: true,
@@ -59,7 +61,7 @@ const Contact = () => {
       >
         {}
       </motion.div> */}
-      <div className=" w-3/4 h-2/4 flex justify-evenly border-2 border-indigo-200 border-x-indigo-500">
+      <div className=" w-3/4 h-2/4 flex justify-evenly bg-blue/40 backdrop-blur-lg border-2 border-indigo-200 border-x-indigo-500">
         <SocialsColumn />
         <motion.div
           className="bg-[#101D51] w-0.5 h-48 rounded-md mt-4 "
