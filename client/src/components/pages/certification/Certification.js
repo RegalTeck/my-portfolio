@@ -38,10 +38,10 @@ const Certification = () => {
             <div></div>
           </div>
           <div className="grid grid-col gap-2">
-            <div className="flex justify-around align-center">
+            <div className="flex justify-between align-center">
               <div>
-                <div> Full Stack JavaScript Certificate at GoMyCode</div>
-                <div>Duration</div>
+                <div> Full Stack JavaScript Certificate - GoMyCode</div>
+                <div>Duration:</div>
                 <motion.div
                   className="w-12 flex  justify-center align-center px-2 border-2 border-[#469DF0]"
                   whileHover={{
@@ -69,10 +69,10 @@ const Certification = () => {
           </div>
 
           <div className="grid grid-col gap-2 mt-4">
-            <div className="flex justify-around align-center">
-              <div className="justify-self-start">
-                <div> Soft Skills For IT - Academy</div>
-                <div>Duration</div>
+            <div className="flex justify-between align-center">
+              <div className="">
+                <div> Soft Skills For IT - Great Learning Academy</div>
+                <div>Duration:</div>
                 <motion.div
                   className="w-12 flex  justify-center align-center px-2 border-2 border-[#469DF0]"
                   whileHover={{

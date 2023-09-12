@@ -1,5 +1,7 @@
 import React from "react";
-import linkdinRecommendationImg1 from "./assets/linkdinRecommendationImg1.PNG";
+import headerimg from "./assets/headerimg.PNG";
+import linkdin1 from "./assets/linkdin1.PNG";
+import linkdin2 from "./assets/linkdin2.PNG";
 import { motion } from "framer-motion";
 
 const Testimonial = () => {
@@ -25,12 +27,23 @@ const Testimonial = () => {
           </motion.div>
           <div></div>
         </div>
-        <div className=" w-full h-3/4 flex justify-center align-center">
-          <div></div>
+        <div style={{ backgroundImage: "url({headerimg})" }}>
+          {/* <img
+            src={headerimg}
+            alt="Linkdin Recommendation header"
+            className="w-full h-16	"
+          /> */}
+        </div>
+        <div className=" w-full h-3/4 flex justify-between align-center gap-6 mt-6">
           <img
-            src={linkdinRecommendationImg1}
+            src={linkdin1}
             alt="Linkdin Recommendation Image"
-            className="border-none rounded-lg ml-4 w-3/5 "
+            className="w-6/12	h-2/5	"
+          />
+          <img
+            src={linkdin2}
+            alt="Linkdin Recommendation Image"
+            className="w-6/12	h-2/5	"
           />
         </div>
       </div>
