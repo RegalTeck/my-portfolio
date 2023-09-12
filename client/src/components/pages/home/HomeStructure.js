@@ -13,7 +13,7 @@ const HomeStructure = ({ setShowModal }) => {
   return (
     // <div className=" w-full  h-screen" id="/">
     <div
-      className="h-screen w-full flex items-center justify-around gap-2 p-20"
+      className="h-screen w-full flex items-center justify-around gap-2 p-20 "
       id="/"
     >
       <div className="w-2/5 mt-4">

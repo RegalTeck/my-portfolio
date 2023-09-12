@@ -48,7 +48,7 @@ const Modal = ({ showModal, setShowModal }) => {
           exit="hidden"
         >
           <motion.div
-            className="modal"
+            className="modal bg-blue/40 backdrop-blur-lg"
             variants={modal}
             initial="hidden"
             animate="visible"

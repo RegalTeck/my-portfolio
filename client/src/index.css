@@ -39,11 +39,10 @@
 }
 
 .modal {
-  max-width: 300px;
-  max-height: 200px;
-  margin: 0 auto;
+  max-width: 700px;
+  max-width: 400px;
+  margin: 15px auto;
   padding: 40px 20px;
-  background: #469df0;
   border-radius: 10px;
   text-align: center;
 }

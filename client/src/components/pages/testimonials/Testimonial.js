@@ -27,14 +27,17 @@ const Testimonial = () => {
           </motion.div>
           <div></div>
         </div>
-        <div style={{ backgroundImage: "url({headerimg})" }}>
+        {/* <div style={{ backgroundImage: "url(${headerimg})" }}>
           {/* <img
             src={headerimg}
             alt="Linkdin Recommendation header"
             className="w-full h-16	"
           /> */}
+        {/* </div>  */}
+        <div className="text-center">
+          See what they are saying about Adewale on Linkedin
         </div>
-        <div className=" w-full h-3/4 flex justify-between align-center gap-6 mt-6">
+        <div className=" w-full h-3/4 flex justify-between align-center gap-6 mt-8">
           <img
             src={linkdin1}
             alt="Linkdin Recommendation Image"

@@ -95,7 +95,7 @@ import {
 const About = () => {
   const [isOpen, setIsOpen] = useState(false);
   return (
-    <div className="relative flex flex-col  items-center w-[120px] rounded-lg ">
+    <div className="relative flex flex-col  items-center w-[140px] rounded-lg ">
       {/* className="grid place-items-center bg-gradient-to-r from-sky-600
       to-indigo-600"> */}
       <button
@@ -111,7 +111,7 @@ const About = () => {
       </button>
 
       {isOpen && (
-        <div className="bg-[#111FFF] absolute top-6 flex flex-col items-center px-2 rounded-lg w-full">
+        <div className=" absolute top-6 flex flex-col items-center bg-[#101D51]   border-[#469DF0] border-2 p-2 rounded-lg w-full">
           <ul className="textSize uppercase w-full text-white">
             <Link
               to="experience"

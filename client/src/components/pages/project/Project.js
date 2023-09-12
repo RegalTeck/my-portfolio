@@ -28,7 +28,7 @@ const Project = () => {
   };
 
   return (
-    <div className="w-full h-screen  font-LGaramond px-20" id="projects">
+    <div className="w-full h-screen     font-LGaramond px-20" id="projects">
       <div className="pages text-center text-[#469DF0] font-LGaramond uppercase font-bold">
         Projects
       </div>

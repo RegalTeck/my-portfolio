@@ -34,7 +34,7 @@ const App = () => {
     //   </BrowserRouter>
     // </div>
 
-    <div className="textSize bg-[#101D51] text-white pt-2">
+    <div className="textSize bg-[#101D51] text-white">
       {/* <OpeningName openingName={openingName} setOpeningName={setOpeningName} /> */}
       <Modal
         showModal={showModal}
