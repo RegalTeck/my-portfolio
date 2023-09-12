@@ -13,15 +13,15 @@ import htmlimg from "./assets/reactimg.png";
 // import reactimg from "./assets/reactimg.png";
 
 const Skills = () => {
-  const [reactOpen, setreactOpen] = useState(false);
-  const [nodeOpen, setnodeOpen] = useState(false);
-  const [expressOpen, setexpressOpen] = useState(false);
-  const [mongoDBOpen, setmongoDBOpen] = useState(false);
-  const [cssOpen, setcssOpen] = useState(false);
-  const [htmlOpen, sethtmlOpen] = useState(false);
-  const [reduxOpen, setreduxOpen] = useState(false);
-  const [tailwindOpen, settailwindOpen] = useState(false);
-  const [framerOpen, setframerOpen] = useState(false);
+  // const [reactOpen, setreactOpen] = useState(false);
+  // const [nodeOpen, setnodeOpen] = useState(false);
+  // const [expressOpen, setexpressOpen] = useState(false);
+  // const [mongoDBOpen, setmongoDBOpen] = useState(false);
+  // const [cssOpen, setcssOpen] = useState(false);
+  // const [htmlOpen, sethtmlOpen] = useState(false);
+  // const [reduxOpen, setreduxOpen] = useState(false);
+  // const [tailwindOpen, settailwindOpen] = useState(false);
+  // const [framerOpen, setframerOpen] = useState(false);
   const cardVariants = {
     initial: {
       y: -250,
@@ -62,7 +62,7 @@ const Skills = () => {
   };
 
   return (
-    <div className="w-full h-screen font-LGaramond px-20" id="skills">
+    <div className="w-full h-screen font-LGaramond px-20 " id="skills">
       <div className="pages text-center text-[#469DF0] font-LGaramond uppercase font-bold">
         Skills
       </div>
@@ -82,8 +82,49 @@ const Skills = () => {
         </motion.div>
         <div></div>
       </div>
-      <div className="grid grid-cols-3 gap-2">
-        <motion.div
+      <div className="mt-10">
+        <div className="flex justify-center align-center ">
+          <img src={reactimg} alt="reactImage" className="w-16 bg-white m-2 " />
+        </div>
+        <div className="flex justify-center align-center gap-5">
+          <img src={nodeimg} alt="Node Image" className="w-16 bg-white m-2" />
+          <img
+            src={expressimg}
+            alt="Express Image"
+            className="w-16 bg-white m-2"
+          />
+        </div>
+
+        <div className="flex justify-center align-center gap-5">
+          <img
+            src={mongodbimg}
+            alt="Mongodb Image"
+            className="w-16 bg-white m-2"
+          />
+          <img src={reduximg} alt="Redux Image" className="w-16 bg-white m-2" />
+          <img src={cssimg} alt="CSS Image" className="w-16 bg-white m-2" />
+        </div>
+
+        <div className="flex justify-center align-center gap-5">
+          <img
+            src={tailwindtimg}
+            alt="Tailwindt Image"
+            className="w-16 bg-white m-2"
+          />
+          <img
+            src={framerimg}
+            alt="Framer Image"
+            className="w-16 bg-white m-2"
+          />
+        </div>
+
+        <div className="flex justify-center align-center">
+          <img src={htmlimg} alt="Html Image" className="w-16 bg-white m-2" />
+        </div>
+      </div>
+      {/* <div className="grid grid-cols-4 gap-2"> */}
+
+      {/* <motion.div
           transition={{ layout: { duration: 1, type: "spring" } }}
           layout
           variants={cardVariants}
@@ -199,8 +240,8 @@ const Skills = () => {
               </p>
             </motion.div>
           )}
-        </motion.div>
-        <motion.div
+        </motion.div> */}
+      {/* <motion.div
           transition={{ layout: { duration: 1, type: "spring" } }}
           layout
           variants={cardVariants}
@@ -249,11 +290,11 @@ const Skills = () => {
           className="m-2 ml-8 border-4 border-indigo-200 border-x-indigo-500 p-4"
         >
           <div layout="position" className="flex justify-between">
-            <div className="w-20 pl--4	">
-              <img src={cssimg} alt="cssImage" />
-            </div>
-            {/* </div> */}
-            <div>
+            <div className="w-20 pl--4	"> */}
+      {/* <img src={cssimg} alt="cssImage" />
+            </div> */}
+      {/* </div> */}
+      {/* <div>
               <motion.button
                 variants={readMoreVariants}
                 whileHover="hover"
@@ -428,8 +469,8 @@ const Skills = () => {
               </p>
             </motion.div>
           )}
-        </motion.div>
-      </div>
+        </motion.div> */}
+      {/* </div> */}
     </div>
   );
 };

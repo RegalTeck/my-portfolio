@@ -2,7 +2,8 @@ import React, { useState } from "react";
 import { motion } from "framer-motion";
 import DownloadForOfflineOutlinedIcon from "@mui/icons-material/DownloadForOfflineOutlined";
 import VisibilityOutlinedIcon from "@mui/icons-material/VisibilityOutlined";
-import { Download } from "@mui/icons-material";
+import { MdOutlineDownloadForOffline } from "react-icons/md";
+import { GrView } from "react-icons/gr";
 
 import {
   AiOutlineCaretUp,
@@ -64,25 +65,25 @@ const Resume = () => {
         </div>
 
         {isOpen && (
-          <motion.div className="flex border-2 border-indigo-200 border-x-indigo-500	text-xs">
+          <motion.div className="flex justify-center align-center px-1 border-2 border-indigo-200 border-x-indigo-500	text-xs">
             <button
               onClick={() => {
                 downloadFileAtURL(RESUME_File_URL);
               }}
-              className="flex gap-1 hover:bg-blue-900 p-1 rounded-md"
+              className="flex hover:bg-blue-900 p-1 rounded-md"
             >
-              Download CV <DownloadForOfflineOutlinedIcon />
+              Download CV <MdOutlineDownloadForOffline fontSize="18" />
             </button>
-            <button className="flex gap-1 hover:bg-blue-900 p-1 rounded-md">
-              <a
-                href="https://drive.google.com/file/d/1fGjoQE_fuPHSfvju78YAvIRJXiAibm7x/view?usp=drive_link"
-                aria-label="View CV"
-                rel="noopener"
-                target="_blank"
-              >
-                View CV <VisibilityOutlinedIcon />{" "}
-              </a>
-            </button>
+            <a
+              href="https://drive.google.com/file/d/1fGjoQE_fuPHSfvju78YAvIRJXiAibm7x/view?usp=drive_link"
+              aria-label="View CV"
+              rel="noopener"
+              target="_blank"
+            >
+              <button className="flex gap-1 justify-between align-center hover:bg-blue-900 p-1 rounded-md">
+                ViewCV <GrView fontSize="20" color="white" />
+              </button>
+            </a>
           </motion.div>
         )}
       </div>
