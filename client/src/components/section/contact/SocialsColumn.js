@@ -29,7 +29,7 @@ const SocialsColumn = () => {
 
   return (
     <div>
-      <motion.div className=" h-full flex flex-col justify-center items-center gap-8 mt-4  ">
+      <motion.div className=" h-full flex flex-col justify-center items-center gap-8  ">
         <motion.button
           variants={socialIcons}
           initial="initial"

@@ -34,7 +34,7 @@ const Testimonial = () => {
             className="w-full h-16	"
           /> */}
         {/* </div>  */}
-        <div className="text-center">
+        <div className="text-center mt-4">
           See what they are saying about Adewale on Linkedin
         </div>
         <div className=" w-full h-3/4 flex justify-between align-center gap-6 mt-8">

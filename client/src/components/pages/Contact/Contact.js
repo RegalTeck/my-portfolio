@@ -30,8 +30,10 @@ const Contact = () => {
         </motion.div>
         <div></div>
       </div>
-      <div className="text-white">
-        <Typewriter
+      <div className="text-center">
+        Get in touch with me
+        <div>Offers, connection, Send me a message</div>
+        {/* <Typewriter
           options={{
             autoStart: true,
             loop: true,
@@ -42,7 +44,7 @@ const Contact = () => {
               "Click on the socials icons below to get in touch",
             ],
           }}
-        />
+        /> */}
       </div>
       {/* <motion.div
         className="bg-white h-0.5 w-11/12 rounded-md m-2"
@@ -57,10 +59,10 @@ const Contact = () => {
       >
         {}
       </motion.div> */}
-      <div className=" w-3/4 h-3/4 flex justify-evenly border-4 border-indigo-200 border-x-indigo-500">
+      <div className=" w-3/4 h-2/4 flex justify-evenly border-2 border-indigo-200 border-x-indigo-500">
         <SocialsColumn />
         <motion.div
-          className="bg-[#101D51] w-0.5 h-11/12 rounded-md m-2 "
+          className="bg-[#101D51] w-0.5 h-48 rounded-md mt-4 "
           initial={{
             opacity: 0,
           }}
@@ -73,7 +75,7 @@ const Contact = () => {
           {}
         </motion.div>
         <Form />
-        <img src={avata3} />
+        {/* <img src={avata3} /> */}
       </div>
     </div>
   );

@@ -7,9 +7,9 @@ import expressimg from "./assets/expressimg.png";
 import mongodbimg from "./assets/mongodbimg.png";
 import reduximg from "./assets/reduximg.png";
 import cssimg from "./assets/cssimg.png";
-import tailwindtimg from "./assets/reactimg.png";
+import tailwindimg from "./assets/tailwindimg.png";
 import framerimg from "./assets/framerimg.png";
-import htmlimg from "./assets/reactimg.png";
+import htmlimg from "./assets/htmlimg.png";
 // import reactimg from "./assets/reactimg.png";
 
 const Skills = () => {
@@ -107,7 +107,7 @@ const Skills = () => {
 
         <div className="flex justify-center align-center gap-5">
           <img
-            src={tailwindtimg}
+            src={tailwindimg}
             alt="Tailwindt Image"
             className="w-16 bg-white m-2"
           />
