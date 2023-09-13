@@ -1,9 +1,10 @@
 import React from "react";
 import headerimg from "./assets/headerimg.PNG";
-import linkdin1 from "./assets/linkdin1.PNG";
-import linkdin2 from "./assets/linkdin2.PNG";
-import linkdin3 from "./assets/linkdin3.PNG";
-import linkdin4 from "./assets/linkdin4.PNG";
+import LImg1 from "./assets/LImg1.png";
+import LImg2 from "./assets/LImg2.png";
+import LImg3 from "./assets/LImg3.png";
+import LImg4 from "./assets/LImg4.png";
+
 import { motion } from "framer-motion";
 
 const Testimonial = () => {
@@ -13,7 +14,7 @@ const Testimonial = () => {
         <div className="pages text-center text-[#469DF0] font-LGaramond uppercase font-bold ">
           Testimonials and Recommendation
         </div>
-        <div className="w-full flex justify-center align-center mb-12">
+        <div className="w-full flex justify-center align-center">
           <motion.div
             className="bg-[#469DF0] h-0.5 w-3/12 rounded-md text-center"
             initial={{
@@ -36,32 +37,32 @@ const Testimonial = () => {
             className="w-full h-16	"
           /> */}
         {/* </div>  */}
-        <div className="myname text-center">
+        <div className="myname text-center mt-4">
           See what they are saying about Adewale on Linkedin
         </div>
-        <div className=" w-full h-3/4 flex justify-between align-center gap-6 mt-8">
+        <div className="h-2/4	flex justify-center align-center mt-4 gap-8">
           <img
-            src={linkdin1}
+            src={LImg3}
             alt="Linkdin Recommendation Image"
-            className="w-6/12	h-2/5	"
+            className="w-2/5 h-2/4	"
           />
           <img
-            src={linkdin2}
+            src={LImg4}
             alt="Linkdin Recommendation Image"
-            className="w-6/12	h-2/5	"
+            className="self-center w-2/5  h-3/5"
           />
         </div>
 
-        <div className=" w-full h-3/4 flex justify-between align-center gap-6 mt-8">
+        <div className="lr h-2/4 flex justify-center align-center gap-8">
           <img
-            src={linkdin4}
+            src={LImg2}
             alt="Linkdin Recommendation Image"
-            className="w-6/12	h-2/5	"
+            className="w-2/5 h-2/4	"
           />
           <img
-            src={linkdin3}
+            src={LImg1}
             alt="Linkdin Recommendation Image"
-            className="w-6/12	h-2/5	"
+            className="self-center w-2/5 h-2/4	mt-4"
           />
         </div>
       </div>
