@@ -16,7 +16,7 @@ const Testimonial = () => {
         </div>
         <div className="w-full flex justify-center align-center">
           <motion.div
-            className="bg-[#469DF0] h-0.5 w-3/12 rounded-md text-center"
+            className="bg-[#101D51] h-0.5 w-3/12 rounded-md text-center"
             initial={{
               opacity: 0,
             }}
@@ -37,7 +37,7 @@ const Testimonial = () => {
             className="w-full h-16	"
           /> */}
         {/* </div>  */}
-        <div className="myname text-center mt-4">
+        <div className="myname text-center  mt-4">
           See what they are saying about Adewale on Linkedin
         </div>
         <div className="h-2/4	flex justify-center align-center mt-4 gap-8">

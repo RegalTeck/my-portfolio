@@ -23,7 +23,7 @@ const Certification = () => {
           <div className="text-[#469DF0] uppercase">Certification</div>
           <div className="w-full flex justify-start align-center mb-6">
             <motion.div
-              className="bg-[#469DF0] h-0.5 w-20 rounded-md text-center"
+              className="bg-[#101D51] h-0.5 w-20 rounded-md text-center"
               initial={{
                 opacity: 0,
               }}
@@ -104,7 +104,7 @@ const Certification = () => {
           <div className="text-[#469DF0] uppercase">Awards</div>
           <div className="w-full flex justify-start align-center mb-4">
             <motion.div
-              className="bg-[#469DF0] h-0.5 w-14 rounded-md text-center"
+              className="bg-[#101D51] h-0.5 w-14 rounded-md text-center"
               initial={{
                 opacity: 0,
               }}

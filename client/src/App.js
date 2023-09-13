@@ -12,6 +12,7 @@ import Modal from "./components/section/modal/Modal";
 import { AnimatePresence } from "framer-motion";
 import Contact from "./components/pages/Contact/Contact";
 import Skills from "./components/pages/skills/Skills";
+import Footer from "./components/section/footer/Footer";
 
 const App = () => {
   // const [openingName, setOpeningName] = useState(true);
@@ -51,6 +52,7 @@ const App = () => {
         <Certification />
         <Testimonial />
         <Contact />
+        <Footer />
       </AnimatePresence>
     </div>
   );

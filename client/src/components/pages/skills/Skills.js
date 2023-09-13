@@ -68,7 +68,7 @@ const Skills = () => {
       </div>
       <div className="w-full flex justify-center align-center mb-4">
         <motion.div
-          className="bg-[#469DF0] h-0.5 w-10 rounded-md text-center"
+          className="bg-[#101D51] h-0.5 w-10 rounded-md text-center"
           initial={{
             opacity: 0,
           }}

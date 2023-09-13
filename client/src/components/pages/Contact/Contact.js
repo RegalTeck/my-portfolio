@@ -14,9 +14,9 @@ const Contact = () => {
       <div className="pages text-center text-[#469DF0] font-LGaramond uppercase font-bold">
         Contact
       </div>
-      <div className="w-full flex justify-center align-center mb-10">
+      <div className="w-full flex justify-center align-center mb-6">
         <motion.div
-          className="bg-[#469DF0] h-0.5 w-14 rounded-md text-center"
+          className="bg-[#101D51] h-0.5 w-14 rounded-md text-center"
           initial={{
             opacity: 0,
           }}
@@ -61,22 +61,25 @@ const Contact = () => {
       >
         {}
       </motion.div> */}
-      <div className=" w-3/4 h-2/4 flex justify-evenly bg-blue/40 backdrop-blur-lg border-2 border-indigo-200 border-x-indigo-500">
-        <SocialsColumn />
-        <motion.div
-          className="bg-[#101D51] w-0.5 h-48 rounded-md mt-4 "
-          initial={{
-            opacity: 0,
-          }}
-          animate={{
-            opacity: 1,
-            scale: 1.1,
-            boxShadow: "0px 0px 8px rgb(255,255,255)",
-          }}
-        >
-          {}
-        </motion.div>
-        <Form />
+      <div className=" w-2/4	h-4/6 flex justify-around p-6 gap-4 border-2 border-indigo-200 border-x-indigo-500">
+        <div className="w-1/6 flex justify-around gap-4">
+          <SocialsColumn className="" />
+          <motion.div
+            className="bg-[#101D51] w-0.5 h-48 rounded-md mt-8 "
+            initial={{
+              opacity: 0,
+            }}
+            animate={{
+              opacity: 1,
+              scale: 1.1,
+              boxShadow: "0px 0px 8px rgb(255,255,255)",
+            }}
+          >
+            {}
+          </motion.div>
+        </div>
+
+        <Form className="w-4/5 " />
         {/* <img src={avata3} /> */}
       </div>
     </div>

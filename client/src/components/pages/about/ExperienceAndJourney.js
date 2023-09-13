@@ -23,7 +23,7 @@ const ExperienceAndJourney = () => {
           <div className="text-[#469DF0] uppercase">Experience</div>
           <div className="w-full flex justify-start align-center mb-4">
             <motion.div
-              className="bg-[#469DF0] h-0.5 w-16 rounded-md text-center"
+              className="bg-[#101D51] h-0.5 w-16 rounded-md text-center"
               initial={{
                 opacity: 0,
               }}
@@ -50,28 +50,29 @@ const ExperienceAndJourney = () => {
                 On-Site. 11/2022 – 05/2023
               </div>
             </div>
-            <hr className="bg-[#469DF0]" />
+            <hr className="text-[#469DF0]" />
             <div>
-              • Used the latest front-end technologies,to build interactive
-              interfaces.
+              <span className=" text-[#469DF0] ">•</span> Used the latest
+              front-end technologies,to build interactive interfaces.
               <div className="ml-3">
                 JavaScript, React.Js, CSS, Tailwind, Redux and HTML .
               </div>
             </div>
             <div>
-              • Built and managed the server side using the latest backend
-              technologies.
+              <span className="text-[#469DF0]">•</span> Built and managed the
+              server side using the latest backend technologies.
               <div className="ml-3">
                 Node.js, Express.js, MongoDb, Cloudinary. store data
               </div>
             </div>
             <div>
-              • Collaborate with other developers to build scalable crud
-              applications.
+              <span className="text-[#469DF0]">•</span> Collaborate with other
+              developers to build scalable crud applications.
               <div className="ml-3"> Git and GitHub</div>
             </div>
             <div>
-              • Built MERN stack applications using the best code practices.
+              <span className="text-[#469DF0]">•</span> Built MERN stack
+              applications using the best code practices.
             </div>
           </div>
         </div>
@@ -80,7 +81,7 @@ const ExperienceAndJourney = () => {
           <div className="text-[#469DF0] uppercase">Journey</div>
           <div className="w-full flex justify-start align-center mb-4">
             <motion.div
-              className="bg-[#469DF0] h-0.5 w-12 rounded-md text-center"
+              className="bg-[#101D51] h-0.5 w-12 rounded-md text-center"
               initial={{
                 opacity: 0,
               }}

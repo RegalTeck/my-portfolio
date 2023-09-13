@@ -34,7 +34,7 @@ const Project = () => {
       </div>
       <div className="w-full flex justify-center align-center mb-4">
         <motion.div
-          className="bg-[#469DF0] h-0.5 w-14 rounded-md text-center"
+          className="bg-[#101D51] h-0.5 w-14 rounded-md text-center"
           initial={{
             opacity: 0,
           }}
@@ -61,7 +61,7 @@ const Project = () => {
             <div className="flex justify-between ">
               <div className="w-4/6">
                 <h2 className="text-[#469DF0] mb-2">Artsthetic AI</h2>
-                <p className="mb-2">An Image generation AI application</p>
+                <p className="mb-2">Image generation AI application</p>
                 <h4 className="text-[#469DF0]">Technologies used</h4>
                 <div>icons</div>
               </div>
@@ -121,7 +121,7 @@ const Project = () => {
             <div className="flex justify-between ">
               <div className="w-4/6">
                 <h2 className="text-[#469DF0] mb-2">Artsthetic AI</h2>
-                <p className="mb-2">An Image generation AI application</p>
+                <p className="mb-2">Image generation AI application</p>
                 <h4 className="text-[#469DF0]">Technologies used</h4>
                 <div>icons</div>
               </div>
@@ -181,7 +181,7 @@ const Project = () => {
             <div className="flex justify-between ">
               <div className="w-4/6">
                 <h2 className="text-[#469DF0] mb-2">Artsthetic AI</h2>
-                <p className="mb-2">An Image generation AI application</p>
+                <p className="mb-2">Image generation AI application</p>
                 <h4 className="text-[#469DF0]">Technologies used</h4>
                 <div>icons</div>
               </div>

@@ -36,7 +36,7 @@ const Form = () => {
     e.target.reset();
   };
   return (
-    <div className="w-3/6 flex flex-col justify-center items-center text-[#469DF0]">
+    <div className="w-full flex flex-col justify-center items-center text-[#469DF0]">
       <form ref={form} onSubmit={sendEmail} className="w-full">
         <div className="text-center"></div>
         <div className="p-2  flex flex-col">
@@ -46,7 +46,7 @@ const Form = () => {
             name="user-name"
             placeholder="Your Full Name"
             required
-            className="rounded-md"
+            className="rounded-md text-[#000] p-2 font-bold	"
           />
         </div>
         <div className="p-2  flex flex-col">
@@ -56,7 +56,7 @@ const Form = () => {
             name="user-email"
             placeholder="Your E-mail Address"
             required
-            className="rounded-md"
+            className="rounded-md text-[#000] p-2 font-bold	"
           />
         </div>
         <div className="p-2  flex flex-col">
@@ -65,7 +65,7 @@ const Form = () => {
             name="message"
             placeholder="Kindly drop a essage about the offer"
             required
-            className="rounded-md h-"
+            className="rounded-md p-4 text-[#000] font-bold"
           />
         </div>
         <motion.div
