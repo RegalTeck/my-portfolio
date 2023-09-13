@@ -12,7 +12,7 @@ import {
 } from "react-icons/ai";
 
 const RESUME_File_URL =
-  "http://localhost:3000/Adewale Victor Adeboye Resume.pdf";
+  "http://localhost:3000/Adewale Victor Adeboye Resume Updated.pdf";
 
 const Resume = () => {
   const downloadFileAtURL = (url) => {
@@ -75,7 +75,7 @@ const Resume = () => {
               Download CV <MdOutlineDownloadForOffline fontSize="18" />
             </button>
             <a
-              href="https://drive.google.com/file/d/1fGjoQE_fuPHSfvju78YAvIRJXiAibm7x/view?usp=drive_link"
+              href="https://drive.google.com/file/d/1VEILyQljQNkUbEDSVx2rnKGYRu8tWjQt/view?usp=drive_link"
               aria-label="View CV"
               rel="noopener"
               target="_blank"
