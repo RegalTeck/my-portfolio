@@ -102,22 +102,20 @@ const Certification = () => {
 
         <div className="w-5/12 self-end mb-2">
           <div className="text-[#469DF0] uppercase">Awards</div>
-          <div className="w-full flex justify-start align-center mb-4">
-            <motion.div
-              className="bg-[#101D51] h-0.5 w-14 rounded-md text-center"
-              initial={{
-                opacity: 0,
-              }}
-              animate={{
-                opacity: 1,
-                scale: 1.1,
-                boxShadow: "0px 0px 8px rgb(255,255,255)",
-              }}
-            >
-              {}
-            </motion.div>
-            <div></div>
-          </div>
+          <motion.div
+            className="bg-[#101D51] h-0.5 w-14 rounded-md text-center mb-4"
+            initial={{
+              opacity: 0,
+            }}
+            animate={{
+              opacity: 1,
+              scale: 1.1,
+              boxShadow: "0px 0px 8px rgb(255,255,255)",
+            }}
+          >
+            {}
+          </motion.div>
+
           <motion.div
             // variants={contentVariants}
             // animate="animate"

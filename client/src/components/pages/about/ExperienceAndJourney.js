@@ -21,24 +21,22 @@ const ExperienceAndJourney = () => {
       <div className=" flex items-center justify-even h-3/4 gap-5">
         <div className="w-7/12 self-start">
           <div className="text-[#469DF0] uppercase">Experience</div>
-          <div className="w-full flex justify-start align-center mb-4">
-            <motion.div
-              className="bg-[#101D51] h-0.5 w-16 rounded-md text-center"
-              initial={{
-                opacity: 0,
-              }}
-              animate={{
-                opacity: 1,
-                scale: 1.1,
-                boxShadow: "0px 0px 8px rgb(255,255,255)",
-              }}
-            >
-              {}
-            </motion.div>
-            <div></div>
-          </div>
+          <motion.div
+            className="bg-[#101D51] h-0.5 w-16 mb-4 rounded-md text-center"
+            initial={{
+              opacity: 0,
+            }}
+            animate={{
+              opacity: 1,
+              scale: 1.1,
+              boxShadow: "0px 0px 8px rgb(255,255,255)",
+            }}
+          >
+            {}
+          </motion.div>
+
           <div className="grid grid-col gap-2 ">
-            <div className="flex justify-around align-center">
+            <div className="flex justify-around gap-4 align-center">
               <div>
                 {" "}
                 Full Stack JavaScript Trainee GoMyCode
@@ -52,26 +50,26 @@ const ExperienceAndJourney = () => {
             </div>
             <hr className="text-[#469DF0]" />
             <div>
-              <span className=" text-[#469DF0] ">•</span> Used the latest
+              <span className=" text-[#469DF0] mr-4">•</span> Used the latest
               front-end technologies,to build interactive interfaces.
-              <div className="ml-3">
+              <div className="ml-6">
                 JavaScript, React.Js, CSS, Tailwind, Redux and HTML .
               </div>
             </div>
             <div>
-              <span className="text-[#469DF0]">•</span> Built and managed the
-              server side using the latest backend technologies.
-              <div className="ml-3">
-                Node.js, Express.js, MongoDb, Cloudinary. store data
+              <span className="text-[#469DF0] mr-4">•</span> Built and managed
+              the server side using the latest backend technologies.
+              <div className="ml-6">
+                Node.js, Express.js, MongoDb, Cloudinary to store data.
               </div>
             </div>
             <div>
-              <span className="text-[#469DF0]">•</span> Collaborate with other
-              developers to build scalable crud applications.
-              <div className="ml-3"> Git and GitHub</div>
+              <span className="text-[#469DF0] mr-4">•</span> Collaborate with
+              other developers to build scalable crud applications.
+              <div className="ml-6"> Git and GitHub.</div>
             </div>
             <div>
-              <span className="text-[#469DF0]">•</span> Built MERN stack
+              <span className="text-[#469DF0] mr-4">•</span> Built MERN stack
               applications using the best code practices.
             </div>
           </div>
