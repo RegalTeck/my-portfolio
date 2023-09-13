@@ -2,6 +2,8 @@ import React from "react";
 import headerimg from "./assets/headerimg.PNG";
 import linkdin1 from "./assets/linkdin1.PNG";
 import linkdin2 from "./assets/linkdin2.PNG";
+import linkdin3 from "./assets/linkdin3.PNG";
+import linkdin4 from "./assets/linkdin4.PNG";
 import { motion } from "framer-motion";
 
 const Testimonial = () => {
@@ -45,6 +47,19 @@ const Testimonial = () => {
           />
           <img
             src={linkdin2}
+            alt="Linkdin Recommendation Image"
+            className="w-6/12	h-2/5	"
+          />
+        </div>
+
+        <div className=" w-full h-3/4 flex justify-between align-center gap-6 mt-8">
+          <img
+            src={linkdin4}
+            alt="Linkdin Recommendation Image"
+            className="w-6/12	h-2/5	"
+          />
+          <img
+            src={linkdin3}
             alt="Linkdin Recommendation Image"
             className="w-6/12	h-2/5	"
           />
