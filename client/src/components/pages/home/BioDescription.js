@@ -20,7 +20,7 @@ const BioDescription = () => {
         variants={contentVariants}
         animate="animate"
         whileHover="hover"
-        className="text-[#469DF0] rounded-md text-center"
+        className="text-[#469DF0] rounded-md text-center p-2"
       >
         My name is Adewale Victor Adeboye,
       </motion.div>

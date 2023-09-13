@@ -20,7 +20,7 @@ const BioQoute = () => {
         variants={contentVariants}
         animate="animate"
         whileHover="hover"
-        className="text-[#469DF0] rounded-md font-LGaramond self-start"
+        className="text-[#469DF0] rounded-md text-center p-2 font-LGaramond self-start"
       >
         <Typewriter
           options={{
