@@ -24,10 +24,10 @@ const NameHeader = () => {
     },
   };
   return (
-    <div>
+    <div className="inset-0 bg-blue/40 backdrop-blur-lg">
       <motion.button
         onClick={() => scroll.scrollToTop()}
-        className="myname font-bold font-LGaramond text-center rounded-md p-2 "
+        className="md:text-sm font-bold font-LGaramond text-center rounded-md p-1 md:p-2 "
         variants={nameVariants}
         initial="initial"
         animate="animate"

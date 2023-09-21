@@ -14,12 +14,15 @@ const ExperienceAndJourney = () => {
     },
   };
   return (
-    <div className="w-full h-screen font-LGaramond px-20" id="experience">
+    <div
+      className="w-full h-screen font-LGaramond px-2 mt-40 md:px-20"
+      id="experience"
+    >
       {/* <div className="pages text-center text-[#469DF0] uppercase font-bold">
         About Me
       </div> */}
-      <div className=" flex items-center justify-even h-3/4 gap-5">
-        <div className="w-7/12 self-start">
+      <div className="mt-6 md:flex md:items-center md:justify-even md:h-3/4 md:gap-5 md:mt-0">
+        <div className="w-full md:w-7/12 md:self-start">
           <div className="text-[#469DF0] uppercase">Experience</div>
           <motion.div
             className="bg-[#101D51] h-0.5 w-16 mb-4 rounded-md text-center"
@@ -75,7 +78,7 @@ const ExperienceAndJourney = () => {
           </div>
         </div>
 
-        <div className="w-5/12 self-end mb-2">
+        <div className="w-full md:w-5/12 md:self-end mb-2 ">
           <div className="text-[#469DF0] uppercase">Journey</div>
           <div className="w-full flex justify-start align-center mb-4">
             <motion.div

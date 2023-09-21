@@ -34,7 +34,7 @@ const BioQoute = () => {
           }}
         />
       </motion.div>
-      <div className=" flex self-end justify-center">
+      <div className=" flex md:self-end justify-center gap-4 md:gap-0 mt-4 md:mt-0">
         <Socials />
         <div></div>
       </div>

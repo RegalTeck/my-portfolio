@@ -39,7 +39,7 @@ const Resume = () => {
   };
   return (
     <motion.div
-      className="flex p-2 border-2 border-[#469DF0] font-LGaramond"
+      className="flex px-1 md:p-2 border-2 border-[#469DF0] font-LGaramond"
       variants={resumeVariants}
       whileHover="whileHover"
     >
@@ -88,9 +88,9 @@ const Resume = () => {
         )}
       </div>
 
-      <span class="relative flex h-3 w-3">
+      <span class="relative flex h-1.5 md:h-2 w-1.5 md:w-2">
         <span class="animate-ping absolute inline-flex h-full w-full rounded-full bg-sky-400 opacity-75"></span>
-        <span class="relative inline-flex rounded-full h-3 w-3 bg-sky-500"></span>
+        <span class="relative inline-flex rounded-full h-1.5 md:h-2 w-1.5 md:w-2 bg-sky-500"></span>
       </span>
     </motion.div>
   );

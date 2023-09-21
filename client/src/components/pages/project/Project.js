@@ -28,8 +28,9 @@ const Project = () => {
   };
 
   return (
-    <div className="w-full h-screen     font-LGaramond px-20" id="projects">
-      <div className="pages text-center text-[#469DF0] font-LGaramond uppercase font-bold">
+    <div className="w-full h-screen font-LGaramond px-4 md:px-20" id="projects">
+      {/* <div className="inset-0 bg-blue/40 backdrop-blur-lg "> */}
+      <div className="text-center text-[#469DF0] font-LGaramond uppercase font-bold">
         Projects
       </div>
       <div className="w-full flex justify-center align-center mb-4">
@@ -48,7 +49,7 @@ const Project = () => {
         </motion.div>
         <div></div>
       </div>
-      <div className=" grid grid-cols-3 gap-6">
+      <div className="grid grid-col gap-4 md:grid md:grid-cols-3 md:gap-6 ">
         <motion.div
           variants={contentVariants}
           whileHover="hover"
@@ -229,6 +230,7 @@ const Project = () => {
           </div>
         </motion.div>
       </div>
+      {/* </div> */}
     </div>
   );
 };
