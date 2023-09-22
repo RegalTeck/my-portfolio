@@ -1,6 +1,6 @@
 import React from "react";
 import Form from "./Form";
-import SocialsColumn from "../../section/contact/SocialsColumn";
+import Socials from "../../section/socials/Socials";
 import { motion } from "framer-motion";
 import avata3 from "./assets/avata3.png";
 import Typewriter from "typewriter-effect";
@@ -61,27 +61,46 @@ const Contact = () => {
       >
         {}
       </motion.div> */}
-      <div className=" w-2/4	h-4/6 flex justify-around p-6 gap-4 border-2 border-indigo-200 border-x-indigo-500">
-        <div className="w-1/6 flex justify-around gap-4">
-          <SocialsColumn className="" />
-          <motion.div
-            className="bg-[#101D51] w-0.5 h-48 rounded-md mt-8 "
-            initial={{
-              opacity: 0,
-            }}
-            animate={{
-              opacity: 1,
-              scale: 1.1,
-              boxShadow: "0px 0px 8px rgb(255,255,255)",
-            }}
-          >
-            {}
-          </motion.div>
-        </div>
+      <div className="w-3/4 flex justify-center align-center py-4 border-2 border-indigo-200 border-x-indigo-500">
+        <div className="w-3/4	">
+          <Form className="w-1/2" />
+          <div className="flex justify-center align-center gap-4 mt-4">
+            <motion.div
+              className="bg-[#101D51] h-0.5 w-2/6 rounded-md mt-2 "
+              initial={{
+                opacity: 0,
+              }}
+              animate={{
+                opacity: 1,
+                scale: 1.1,
+                boxShadow: "0px 0px 8px rgb(255,255,255)",
+              }}
+            >
+              {}
+            </motion.div>
 
-        <Form className="w-4/5 " />
-        {/* <img src={avata3} /> */}
+            <div className="uppercase text-sm">or</div>
+
+            <motion.div
+              className="bg-[#101D51] h-0.5 w-2/6 rounded-md mt-2 "
+              initial={{
+                opacity: 0,
+              }}
+              animate={{
+                opacity: 1,
+                scale: 1.1,
+                boxShadow: "0px 0px 8px rgb(255,255,255)",
+              }}
+            >
+              {}
+            </motion.div>
+          </div>
+          <div className="	flex justify-center align-center">
+            <Socials className="w-1/4" />
+          </div>
+        </div>
       </div>
+      {/* <img src={avata3} /> */}
     </div>
   );
 };

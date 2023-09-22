@@ -9,14 +9,17 @@ import { motion } from "framer-motion";
 
 const Testimonial = () => {
   return (
-    <div className="w-full h-screen font-LGaramond px-20" id="testimonials">
+    <div
+      className="w-full h-screen font-LGaramond mt-20 md:mt-0 px-4 md:px-20"
+      id="testimonials"
+    >
       <div className="h-full">
         <div className="pages text-center text-[#469DF0] font-LGaramond uppercase font-bold ">
           Testimonials and Recommendation
         </div>
         <div className="w-full flex justify-center align-center">
           <motion.div
-            className="bg-[#101D51] h-0.5 w-3/12 rounded-md text-center"
+            className="bg-[#101D51] h-0.5 w-3/5 md:w-3/12 rounded-md text-center"
             initial={{
               opacity: 0,
             }}
@@ -37,32 +40,32 @@ const Testimonial = () => {
             className="w-full h-16	"
           /> */}
         {/* </div>  */}
-        <div className="myname text-center  mt-4">
+        <div className="text-center mb-4 md:text-sm md:mb-0  mt-4">
           See what they are saying about Adewale on Linkedin
         </div>
-        <div className="h-2/4	flex justify-center align-center mt-4 gap-8">
+        <div className=" md:h-2/4	md:flex md:justify-center md:align-center md:mt-4 md:gap-8">
           <img
             src={LImg3}
             alt="Linkdin Recommendation Image"
-            className="w-2/5 h-2/4	"
+            className="mb-2 md:mb-0 md:w-2/5 md:h-2/4	"
           />
           <img
             src={LImg4}
             alt="Linkdin Recommendation Image"
-            className="self-center w-2/5  h-3/5"
+            className="mb-2 md:mb-0 md:self-center md:w-2/5  md:h-3/5"
           />
         </div>
 
-        <div className="lr h-2/4 flex justify-center align-center gap-8">
+        <div className="md:h-2/4 md:flex md:justify-center md:align-center md:-mt-20 md:gap-8">
           <img
             src={LImg2}
             alt="Linkdin Recommendation Image"
-            className="w-2/5 h-2/4	"
+            className="mb-2 md:mb-0 md:w-2/5 md:h-2/4	"
           />
           <img
             src={LImg1}
             alt="Linkdin Recommendation Image"
-            className="self-center w-2/5 h-2/4	mt-4"
+            className="md:self-center md:w-2/5 md:h-2/4	md:mt-4"
           />
         </div>
       </div>
