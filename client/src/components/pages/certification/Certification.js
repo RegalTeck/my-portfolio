@@ -14,14 +14,19 @@ const Certification = () => {
     },
   };
   return (
-    <div className="w-full h-screen font-LGaramond px-20" id="certification">
+    <div
+      className="w-full h-1/2 mt-20 md:mt-0 md:mb-0 md:h-screen font-LGaramond px-4 md:px-20"
+      id="certification"
+    >
       {/* <div className="pages text-center text-[#469DF0] uppercase font-bold">
         About Me
       </div> */}
-      <div className=" flex items-center justify-even h-3/4 gap-5">
-        <div className="w-7/12 self-start">
-          <div className="text-[#469DF0] uppercase">Certification</div>
-          <div className="w-full flex justify-start align-center mb-6">
+      <div className=" md:flex md:items-center md:justify-even md:h-3/4 md:gap-5">
+        <div className="md:w-7/12 md:self-start">
+          <div className="text-center md:text-start text-[#469DF0] uppercase">
+            Certification
+          </div>
+          <div className="w-full flex justify-center align-center md:justify-start md:align-center mb-6">
             <motion.div
               className="bg-[#101D51] h-0.5 w-20 rounded-md text-center"
               initial={{
@@ -38,7 +43,7 @@ const Certification = () => {
             <div></div>
           </div>
           <div className="grid grid-col gap-2">
-            <div className="flex justify-between align-center">
+            <div className="flex justify-between align-center gap-16 md:gap-0">
               <div>
                 <div> Full Stack JavaScript Certificate - GoMyCode</div>
                 <div>Duration:</div>
@@ -100,21 +105,25 @@ const Certification = () => {
           </div>
         </div>
 
-        <div className="w-5/12 self-end mb-2">
-          <div className="text-[#469DF0] uppercase">Awards</div>
-          <motion.div
-            className="bg-[#101D51] h-0.5 w-14 rounded-md text-center mb-4"
-            initial={{
-              opacity: 0,
-            }}
-            animate={{
-              opacity: 1,
-              scale: 1.1,
-              boxShadow: "0px 0px 8px rgb(255,255,255)",
-            }}
-          >
-            {}
-          </motion.div>
+        <div className="mt-20 md:mt-0 md:w-5/12 md:self-end mb-2">
+          <div className="text-center md:text-start text-[#469DF0] uppercase">
+            Awards
+          </div>
+          <div className="w-full flex justify-center align-center md:justify-start md:align-center ">
+            <motion.div
+              className="bg-[#101D51] h-0.5 w-14 rounded-md text-center mb-4"
+              initial={{
+                opacity: 0,
+              }}
+              animate={{
+                opacity: 1,
+                scale: 1.1,
+                boxShadow: "0px 0px 8px rgb(255,255,255)",
+              }}
+            >
+              {}
+            </motion.div>
+          </div>
 
           <motion.div
             // variants={contentVariants}

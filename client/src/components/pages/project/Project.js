@@ -47,13 +47,12 @@ const Project = () => {
         >
           {}
         </motion.div>
-        <div></div>
       </div>
-      <div className="grid grid-col gap-4 md:grid md:grid-cols-3 md:gap-6 ">
+      <div className="grid grid-col gap-4 md:grid md:grid-cols-3 md:gap-6 md:mt-6">
         <motion.div
           variants={contentVariants}
           whileHover="hover"
-          className="border-4  border-indigo-200 border-x-indigo-500 p-2"
+          className="border-4  border-indigo-200 border-x-indigo-500 p-2 "
         >
           <div className="">
             <div>

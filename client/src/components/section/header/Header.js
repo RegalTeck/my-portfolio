@@ -6,7 +6,7 @@ import NavBar from "./NavBar";
 
 const Header = () => {
   return (
-    <div className="bg-[#101D51] fixed w-screen text-white flex justify-start items-center gap-4 pl-2 mt-2 md:justify-around md:items-center  md:pt-2 md:pl-4 md:pr-8 ">
+    <div className="bg-[#101D51] fixed w-screen text-white z-10 flex justify-start items-center gap-4  p-2 m-0 md:justify-around md:items-center md:pl-4 md:pr-8 ">
       {/* <div className="flex justify-center align-center gap-4"> */}
       <NameHeader />
       {/* <div> */}

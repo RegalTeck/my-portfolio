@@ -62,11 +62,14 @@ const Skills = () => {
   };
 
   return (
-    <div className="w-full h-screen font-LGaramond px-20 " id="skills">
+    <div
+      className="w-full h-2/4 -mt-40 mb-10 md:mb-0 md:mt-0   md:h-screen font-LGaramond px-20 "
+      id="skills"
+    >
       <div className="pages text-center text-[#469DF0] font-LGaramond uppercase font-bold">
         Skills
       </div>
-      <div className="w-full flex justify-center align-center mb-4">
+      <div className="w-full flex justify-center align-center">
         <motion.div
           className="bg-[#101D51] h-0.5 w-10 rounded-md text-center"
           initial={{
@@ -82,7 +85,7 @@ const Skills = () => {
         </motion.div>
         <div></div>
       </div>
-      <div className="mt-10">
+      <div className="mt-4 md:mt-8">
         <div className="flex justify-center align-center ">
           <img src={reactimg} alt="reactImage" className="w-16 bg-white m-2 " />
         </div>
