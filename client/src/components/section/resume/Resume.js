@@ -72,7 +72,8 @@ const Resume = () => {
               }}
               className="flex hover:bg-blue-900 p-1 rounded-md"
             >
-              Download CV <MdOutlineDownloadForOffline fontSize="18" />
+              Download<span className="hidden md:inline">CV</span>{" "}
+              <MdOutlineDownloadForOffline fontSize="18" />
             </button>
             <a
               href="https://drive.google.com/file/d/1VEILyQljQNkUbEDSVx2rnKGYRu8tWjQt/view?usp=drive_link"
@@ -81,7 +82,8 @@ const Resume = () => {
               target="_blank"
             >
               <button className="flex gap-1 justify-between align-center hover:bg-blue-900 p-1 rounded-md">
-                ViewCV <GrView fontSize="20" color="white" />
+                View<span className="hidden md:inline">CV</span>{" "}
+                <GrView fontSize="20" color="white" />
               </button>
             </a>
           </motion.div>

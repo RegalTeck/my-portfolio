@@ -10,7 +10,7 @@ import { motion } from "framer-motion";
 const Testimonial = () => {
   return (
     <div
-      className="w-full h-screen font-LGaramond mt-20 md:mt-0 px-4 md:px-20"
+      className="w-full h-1/2 md:h-screen font-LGaramond mt-20 md:mt-0 px-4 md:px-20"
       id="testimonials"
     >
       <div className="h-full">

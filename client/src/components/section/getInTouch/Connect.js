@@ -6,7 +6,7 @@ import { Link } from "react-scroll";
 const Connect = () => {
   return (
     <motion.div
-      className="flex justify-center align-center p-2 border-2 border-[#469DF0]"
+      className="flex justify-center align-center p-1 md:p-2 border-2 border-[#469DF0]"
       whileHover={{
         scale: 1.1,
         boxShadow: "0px 0px 8px rgb(255,255,255)",

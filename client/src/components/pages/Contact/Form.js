@@ -49,7 +49,7 @@ const Form = () => {
             className="rounded-md text-[#000] p-2 font-bold	"
           />
         </div>
-        <div className="p-2  flex flex-col">
+        <div className="p-1 md:p-2  flex flex-col">
           <label>Email </label>
           <input
             type="email"
@@ -59,13 +59,13 @@ const Form = () => {
             className="rounded-md text-[#000] p-2 font-bold	"
           />
         </div>
-        <div className="p-2  flex flex-col">
+        <div className="p-1 md:p-2  flex flex-col">
           <label>Message</label>
           <textarea
             name="message"
-            placeholder="Kindly drop a essage about the offer"
+            placeholder="Hello! Adewale, I have an interesting offer for you..."
             required
-            className="rounded-md p-4 text-[#000] font-bold"
+            className="rounded-md p-1 md:p-4 text-[#000] font-bold"
           />
         </div>
         <motion.div

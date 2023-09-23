@@ -32,7 +32,7 @@ const BioDescription = () => {
         projects.
       </motion.div>
 
-      <div className="flex gap-4 w-full">
+      <div className="flex gap-2 md:gap-4 w-full">
         <Connect /> <Resume />
       </div>
     </div>
