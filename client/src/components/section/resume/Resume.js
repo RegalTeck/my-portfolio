@@ -12,7 +12,7 @@ import {
 } from "react-icons/ai";
 
 const RESUME_File_URL =
-  "http://localhost:3000/Adewale Victor Adeboye Resume Updated.pdf";
+  "http://localhost:3000/Adewale Victor Adeboye Resume Full Stack Web Developer.pdf";
 
 const Resume = () => {
   const downloadFileAtURL = (url) => {
@@ -72,17 +72,17 @@ const Resume = () => {
               }}
               className="flex hover:bg-blue-900 p-1 rounded-md"
             >
-              Download<span className="hidden md:inline">CV</span>{" "}
+              Download
               <MdOutlineDownloadForOffline fontSize="18" />
             </button>
             <a
-              href="https://drive.google.com/file/d/1VEILyQljQNkUbEDSVx2rnKGYRu8tWjQt/view?usp=drive_link"
+              href="https://drive.google.com/file/d/1duuADgRLgg0Rsj6D9Fpv5hBYr_2akctP/view?usp=drive_link"
               aria-label="View CV"
               rel="noopener"
               target="_blank"
             >
               <button className="flex gap-1 justify-between align-center hover:bg-blue-900 p-1 rounded-md">
-                View<span className="hidden md:inline">CV</span>{" "}
+                View
                 <GrView fontSize="20" color="white" />
               </button>
             </a>

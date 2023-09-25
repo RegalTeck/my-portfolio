@@ -95,7 +95,7 @@ import {
 const About = () => {
   const [isOpen, setIsOpen] = useState(false);
   return (
-    <div className="relative flex flex-col  items-center w-[140px] rounded-lg ">
+    <div className="relative flex flex-col  items-center w-full md:w-[140px] rounded-lg ">
       {/* className="grid place-items-center bg-gradient-to-r from-sky-600
       to-indigo-600"> */}
       <button
@@ -111,8 +111,8 @@ const About = () => {
       </button>
 
       {isOpen && (
-        <div className=" absolute top-6 flex flex-col items-center bg-[#101D51]   border-[#469DF0] border-2 p-2 rounded-lg w-full">
-          <ul className="textSize uppercase w-full text-white">
+        <div className="w-full absolute top-6 flex flex-col items-center bg-[#101D51] border-[#469DF0] border-2 p-2 rounded-lg">
+          <ul className="textSize uppercase w-full text-white space-y-2 md:space-y-0">
             <Link
               to="experience"
               smooth={true}
@@ -120,7 +120,7 @@ const About = () => {
               duration={1000}
               className="cursor-pointer"
             >
-              <li className="flex justify-between  hover:bg-blue-300 cursor-pointer rounded-r-lg border-l-transparent hover:border-l-white border-l-2">
+              <li className="flex justify-between align-center  hover:bg-blue-300 cursor-pointer rounded-r-lg border-l-transparent hover:border-l-white border-l-2">
                 Experience
                 <AiOutlineCaretRight />
               </li>
@@ -133,7 +133,7 @@ const About = () => {
               duration={1000}
               className="cursor-pointer"
             >
-              <li className="flex justify-between  hover:bg-blue-300 cursor-pointer rounded-r-lg border-l-transparent hover:border-l-white border-l-2">
+              <li className="flex justify-between align-center  hover:bg-blue-300 cursor-pointer rounded-r-lg border-l-transparent hover:border-l-white border-l-2 mt-2 md:mt-0">
                 Journey
                 <AiOutlineCaretRight />
               </li>
@@ -146,7 +146,7 @@ const About = () => {
               duration={1000}
               className="cursor-pointer"
             >
-              <li className="flex justify-between  hover:bg-blue-300 cursor-pointer rounded-r-lg border-l-transparent hover:border-l-white border-l-2">
+              <li className="flex justify-between align-center  hover:bg-blue-300 cursor-pointer rounded-r-lg border-l-transparent hover:border-l-white border-l-2 mt-2 md:mt-0">
                 Skills
                 <AiOutlineCaretRight />
               </li>
@@ -159,7 +159,7 @@ const About = () => {
               duration={1000}
               className="cursor-pointer"
             >
-              <li className="flex justify-between  hover:bg-blue-300 cursor-pointer rounded-r-lg border-l-transparent hover:border-l-white border-l-2">
+              <li className="flex justify-between align-center  hover:bg-blue-300 cursor-pointer rounded-r-lg border-l-transparent hover:border-l-white border-l-2 mt-2 md:mt-0">
                 Certification
                 <AiOutlineCaretRight />
               </li>
@@ -172,7 +172,7 @@ const About = () => {
               duration={1000}
               className="cursor-pointer"
             >
-              <li className="flex justify-between  hover:bg-blue-300 cursor-pointer rounded-r-lg border-l-transparent hover:border-l-white border-l-2">
+              <li className="flex justify-between align-center  hover:bg-blue-300 cursor-pointer rounded-r-lg border-l-transparent hover:border-l-white border-l-2 mt-2 md:mt-0">
                 Awards
                 <AiOutlineCaretRight />
               </li>
@@ -185,7 +185,7 @@ const About = () => {
               duration={1000}
               className="cursor-pointer"
             >
-              <li className="flex justify-between  hover:bg-blue-300 cursor-pointer rounded-r-lg border-l-transparent hover:border-l-white border-l-2">
+              <li className="flex justify-between align-center hover:bg-blue-300 cursor-pointer rounded-r-lg border-l-transparent hover:border-l-white border-l-2 mt-2 md:mt-0">
                 Testimonial
                 <AiOutlineCaretRight />
               </li>

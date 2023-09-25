@@ -56,9 +56,16 @@ const Certification = () => {
                   transition={{ type: "spring", stiffness: 300 }}
                 >
                   <div>
-                    <button className="section font-LGaramond text-[#469DF0] uppercase font-bold rounded-md center">
-                      view{" "}
-                    </button>
+                    <a
+                      href="https://diploma.gomycode.app/?id=31685491271172413"
+                      aria-label="GOMYCODE CERTIFICATE IMAGE"
+                      rel="noopener"
+                      target="_blank"
+                    >
+                      <button className="section font-LGaramond text-[#469DF0] uppercase font-bold rounded-md center">
+                        view{" "}
+                      </button>
+                    </a>
                   </div>
                   <div className="section animate-bounce  h-4">
                     {/* <KeyboardDoubleArrowDownIcon /> */}
@@ -87,9 +94,16 @@ const Certification = () => {
                   transition={{ type: "spring", stiffness: 300 }}
                 >
                   <div>
-                    <button className="section font-LGaramond text-[#469DF0] uppercase font-bold rounded-md center">
-                      view{" "}
-                    </button>
+                    <a
+                      href="https://drive.google.com/file/d/1_d4IbPSQw3npaJfnVS0NNoEvlLyaG3f2/view?usp=drive_link"
+                      aria-label="GREAT LEARNING SOFT SKILL CERTIFICATE IMAGE"
+                      rel="noopener"
+                      target="_blank"
+                    >
+                      <button className="section font-LGaramond text-[#469DF0] uppercase font-bold rounded-md center">
+                        view{" "}
+                      </button>
+                    </a>
                   </div>
                   <div className="section animate-bounce  h-4">
                     {/* <KeyboardDoubleArrowDownIcon /> */}
