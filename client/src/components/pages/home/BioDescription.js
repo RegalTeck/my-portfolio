@@ -20,16 +20,17 @@ const BioDescription = () => {
         variants={contentVariants}
         animate="animate"
         whileHover="hover"
-        className="text-[#469DF0] rounded-md text-center p-2"
+        className="text-[#469DF0] rounded-md text-center md:p-2"
       >
-        My name is Adewale Victor Adeboye,
+        My name is Adewale <span className="hidden md:inline">Victor</span>{" "}
+        Adeboye,
       </motion.div>
 
       <motion.div className="">
-        As an enthusiastic software Developer, I bring to the table a rich blend
-        of creativity, problem-solving abilities and good team spirit. With high
-        efficiency in using modern cutting edge technologies to build scalable
-        projects.
+        I am a solution provider, user-centric and result oriented full stack
+        web developer. I bring to the table a rich blend of creativity and good
+        team spirit. With high efficiency in using modern cutting edge
+        technologies.
       </motion.div>
 
       <div className="flex gap-2 md:gap-4 w-full">

@@ -69,7 +69,7 @@ const Form = () => {
           />
         </div>
         <motion.div
-          className=" rounded-md px-2 py-2  text-white bg-green-600"
+          className=" rounded-md px-2 py-2 mt-2  text-white bg-green-600"
           variants={submitBTNVariants}
           initial="initial"
           animate="animate"

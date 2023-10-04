@@ -39,7 +39,7 @@ const Resume = () => {
   };
   return (
     <motion.div
-      className="flex px-1 md:p-2 border-2 border-[#469DF0] font-LGaramond"
+      className="flex justify-center px-1 md:p-2 border-2 border-[#469DF0] font-LGaramond"
       variants={resumeVariants}
       whileHover="whileHover"
     >
@@ -65,7 +65,7 @@ const Resume = () => {
         </div>
 
         {isOpen && (
-          <motion.div className="flex justify-center align-center px-1 border-2 border-indigo-200 border-x-indigo-500	text-xs">
+          <motion.div className="flex justify-center align-center md:px-1 border-2 border-indigo-200 border-x-indigo-500	text-xs">
             <button
               onClick={() => {
                 downloadFileAtURL(RESUME_File_URL);
