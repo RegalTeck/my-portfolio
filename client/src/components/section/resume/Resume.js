@@ -65,15 +65,26 @@ const Resume = () => {
         </div>
 
         {isOpen && (
-          <motion.div className="flex justify-center align-center md:px-1 border-2 border-indigo-200 border-x-indigo-500	text-xs">
+          <motion.div className="flex justify-center align-center gap-2 mb-1 md:px-1 border-2 border-indigo-200 border-x-indigo-500	text-xs">
             <button
               onClick={() => {
                 downloadFileAtURL(RESUME_File_URL);
               }}
-              className="flex hover:bg-blue-900 p-1 rounded-md"
+              className="hover:bg-blue-900 p-1 rounded-md"
             >
-              Download
-              <MdOutlineDownloadForOffline fontSize="18" />
+              <span>Download</span>
+              <svg
+                className="w-3 text-white inline-block"
+                viewBox="0 0 24 24"
+                fill="currentColor"
+              >
+                <path
+                  fill-rule="evenodd"
+                  d="M9.75 6.75h-3a3 3 0 00-3 3v7.5a3 3 0 003 3h7.5a3 3 0 003-3v-7.5a3 3 0 00-3-3h-3V1.5a.75.75 0 00-1.5 0v5.25zm0 0h1.5v5.69l1.72-1.72a.75.75 0 111.06 1.06l-3 3a.75.75 0 01-1.06 0l-3-3a.75.75 0 111.06-1.06l1.72 1.72V6.75z"
+                  clip-rule="evenodd"
+                />
+                <path d="M7.151 21.75a2.999 2.999 0 002.599 1.5h7.5a3 3 0 003-3v-7.5c0-1.11-.603-2.08-1.5-2.599v7.099a4.5 4.5 0 01-4.5 4.5H7.151z" />
+              </svg>
             </button>
             <a
               href="https://drive.google.com/file/d/1duuADgRLgg0Rsj6D9Fpv5hBYr_2akctP/view?usp=drive_link"
@@ -81,9 +92,20 @@ const Resume = () => {
               rel="noopener"
               target="_blank"
             >
-              <button className="flex gap-1 justify-between align-center hover:bg-blue-900 p-1 rounded-md">
-                View
-                <GrView fontSize="20" color="white" />
+              <button className=" hover:bg-blue-900 p-1 rounded-md">
+                {/* <div className="flex justify-center align-center"> */}
+                <span>View</span>{" "}
+                <svg
+                  className="w-3 text-white inline-block"
+                  viewBox="0 0 24 24"
+                  fill="currentColor"
+                >
+                  <path
+                    fill-rule="evenodd"
+                    d="M15.75 2.25H21a.75.75 0 01.75.75v5.25a.75.75 0 01-1.5 0V4.81L8.03 17.03a.75.75 0 01-1.06-1.06L19.19 3.75h-3.44a.75.75 0 010-1.5zm-10.5 4.5a1.5 1.5 0 00-1.5 1.5v10.5a1.5 1.5 0 001.5 1.5h10.5a1.5 1.5 0 001.5-1.5V10.5a.75.75 0 011.5 0v8.25a3 3 0 01-3 3H5.25a3 3 0 01-3-3V8.25a3 3 0 013-3h8.25a.75.75 0 010 1.5H5.25z"
+                    clip-rule="evenodd"
+                  />
+                </svg>
               </button>
             </a>
           </motion.div>

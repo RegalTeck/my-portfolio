@@ -78,7 +78,18 @@ const Project = () => {
                       rel="noopener"
                       target="_blank"
                     >
-                      View{" "}
+                      <span>View</span>{" "}
+                      <svg
+                        className="w-3 text-white inline-block"
+                        viewBox="0 0 24 24"
+                        fill="currentColor"
+                      >
+                        <path
+                          fill-rule="evenodd"
+                          d="M15.75 2.25H21a.75.75 0 01.75.75v5.25a.75.75 0 01-1.5 0V4.81L8.03 17.03a.75.75 0 01-1.06-1.06L19.19 3.75h-3.44a.75.75 0 010-1.5zm-10.5 4.5a1.5 1.5 0 00-1.5 1.5v10.5a1.5 1.5 0 001.5 1.5h10.5a1.5 1.5 0 001.5-1.5V10.5a.75.75 0 011.5 0v8.25a3 3 0 01-3 3H5.25a3 3 0 01-3-3V8.25a3 3 0 013-3h8.25a.75.75 0 010 1.5H5.25z"
+                          clip-rule="evenodd"
+                        />
+                      </svg>
                     </a>{" "}
                   </motion.button>{" "}
                   <motion.button
@@ -95,14 +106,21 @@ const Project = () => {
                       GitHub{" "}
                     </a>{" "}
                   </motion.button>{" "}
-                  <motion.button
-                    variants={buttonVariants}
-                    whileHover="hover"
-                    className="hover:text-[#469DF0] rounded-md"
-                  >
-                    {/* <FavoriteBorderOutlinedIcon /> */}
-                    <FcLike icon="like" fontSize="16" margin="auto" />
-                  </motion.button>
+                  <button>
+                    <svg
+                      className="w-4 text-white inline-block hover:text-[#FF0000] rounded"
+                      fill="none"
+                      viewBox="0 0 24 24"
+                      stroke-width="1.5"
+                      stroke="currentColor"
+                    >
+                      <path
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        d="M21 8.25c0-2.485-2.099-4.5-4.688-4.5-1.935 0-3.597 1.126-4.312 2.733-.715-1.607-2.377-2.733-4.313-2.733C5.1 3.75 3 5.765 3 8.25c0 7.22 9 12 9 12s9-4.78 9-12z"
+                      />
+                    </svg>
+                  </button>
                 </div>
               </div>
             </div>
@@ -138,7 +156,18 @@ const Project = () => {
                       rel="noopener"
                       target="_blank"
                     >
-                      View{" "}
+                      <span>View</span>{" "}
+                      <svg
+                        className="w-3 text-white inline-block"
+                        viewBox="0 0 24 24"
+                        fill="currentColor"
+                      >
+                        <path
+                          fill-rule="evenodd"
+                          d="M15.75 2.25H21a.75.75 0 01.75.75v5.25a.75.75 0 01-1.5 0V4.81L8.03 17.03a.75.75 0 01-1.06-1.06L19.19 3.75h-3.44a.75.75 0 010-1.5zm-10.5 4.5a1.5 1.5 0 00-1.5 1.5v10.5a1.5 1.5 0 001.5 1.5h10.5a1.5 1.5 0 001.5-1.5V10.5a.75.75 0 011.5 0v8.25a3 3 0 01-3 3H5.25a3 3 0 01-3-3V8.25a3 3 0 013-3h8.25a.75.75 0 010 1.5H5.25z"
+                          clip-rule="evenodd"
+                        />
+                      </svg>
                     </a>{" "}
                   </motion.button>{" "}
                   <motion.button
@@ -155,14 +184,21 @@ const Project = () => {
                       GitHub{" "}
                     </a>{" "}
                   </motion.button>{" "}
-                  <motion.button
-                    variants={buttonVariants}
-                    whileHover="hover"
-                    className="hover:text-[#469DF0] rounded-md"
-                  >
-                    {/* <FavoriteBorderOutlinedIcon /> */}
-                    <FcLike icon="like" fontSize="16" margin="auto" />
-                  </motion.button>
+                  <button>
+                    <svg
+                      className="w-4 text-white inline-block hover:text-[#FF0000] rounded"
+                      fill="none"
+                      viewBox="0 0 24 24"
+                      stroke-width="1.5"
+                      stroke="currentColor"
+                    >
+                      <path
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        d="M21 8.25c0-2.485-2.099-4.5-4.688-4.5-1.935 0-3.597 1.126-4.312 2.733-.715-1.607-2.377-2.733-4.313-2.733C5.1 3.75 3 5.765 3 8.25c0 7.22 9 12 9 12s9-4.78 9-12z"
+                      />
+                    </svg>
+                  </button>
                 </div>
               </div>
             </div>
@@ -198,7 +234,18 @@ const Project = () => {
                       rel="noopener"
                       target="_blank"
                     >
-                      View{" "}
+                      <span>View</span>{" "}
+                      <svg
+                        className="w-3 text-white inline-block"
+                        viewBox="0 0 24 24"
+                        fill="currentColor"
+                      >
+                        <path
+                          fill-rule="evenodd"
+                          d="M15.75 2.25H21a.75.75 0 01.75.75v5.25a.75.75 0 01-1.5 0V4.81L8.03 17.03a.75.75 0 01-1.06-1.06L19.19 3.75h-3.44a.75.75 0 010-1.5zm-10.5 4.5a1.5 1.5 0 00-1.5 1.5v10.5a1.5 1.5 0 001.5 1.5h10.5a1.5 1.5 0 001.5-1.5V10.5a.75.75 0 011.5 0v8.25a3 3 0 01-3 3H5.25a3 3 0 01-3-3V8.25a3 3 0 013-3h8.25a.75.75 0 010 1.5H5.25z"
+                          clip-rule="evenodd"
+                        />
+                      </svg>
                     </a>{" "}
                   </motion.button>{" "}
                   <motion.button
@@ -215,14 +262,21 @@ const Project = () => {
                       GitHub{" "}
                     </a>{" "}
                   </motion.button>{" "}
-                  <motion.button
-                    variants={buttonVariants}
-                    whileHover="hover"
-                    className="hover:text-[#469DF0] rounded-md"
-                  >
-                    {/* <FavoriteBorderOutlinedIcon /> */}
-                    <FcLike icon="like" fontSize="16" margin="auto" />
-                  </motion.button>
+                  <button>
+                    <svg
+                      className="w-4 text-white inline-block hover:text-[#FF0000] rounded"
+                      fill="none"
+                      viewBox="0 0 24 24"
+                      stroke-width="1.5"
+                      stroke="currentColor"
+                    >
+                      <path
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        d="M21 8.25c0-2.485-2.099-4.5-4.688-4.5-1.935 0-3.597 1.126-4.312 2.733-.715-1.607-2.377-2.733-4.313-2.733C5.1 3.75 3 5.765 3 8.25c0 7.22 9 12 9 12s9-4.78 9-12z"
+                      />
+                    </svg>
+                  </button>
                 </div>
               </div>
             </div>

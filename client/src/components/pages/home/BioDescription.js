@@ -30,7 +30,10 @@ const BioDescription = () => {
         I am a solution provider, user-centric and result oriented full stack
         web developer. I bring to the table a rich blend of creativity and good
         team spirit. With high efficiency in using modern cutting edge
-        technologies.
+        technologies<span className="inline md:hidden">.</span>{" "}
+        <span className="hidden md:inline">
+          to build scalable web applications.
+        </span>
       </motion.div>
 
       <div className="flex gap-2 md:gap-4 w-full">

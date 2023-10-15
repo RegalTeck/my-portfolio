@@ -66,8 +66,8 @@ const ExperienceAndJourney = () => {
             </div>
             <div>
               <span className="text-[#469DF0] m-2 md:m-0 md:mr-4">•</span> Built
-              and managed the server side using the latest backend{" "}
-              <span className="ml-6 md:ml-0"> technologies.</span>
+              and managed the server side using the latest{" "}
+              <span className="ml-6 md:ml-0">backend technologies.</span>
               <div className="ml-6">
                 Node.js, Express.js, MongoDb, Cloudinary to store data.
               </div>
@@ -80,12 +80,13 @@ const ExperienceAndJourney = () => {
             </div>
             <div>
               <span className="text-[#469DF0] m-2 md:m-0 md:mr-4">•</span> Built
-              MERN stack applications using the best code practices.
+              MERN stack applications using the best code{" "}
+              <span className="ml-6 md:ml-0">practices.</span>
             </div>
           </div>
         </div>
 
-        <div className="w-full mt-20 md:mt-0 md:w-5/12 md:self-end mb-2 ">
+        <div className="w-full  mt-20 md:mt-0 md:w-5/12 md:self-end mb-2 ">
           <div className="text-center md:text-start text-[#469DF0] uppercase">
             Journey
           </div>

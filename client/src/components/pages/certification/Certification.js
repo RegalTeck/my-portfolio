@@ -48,7 +48,7 @@ const Certification = () => {
                 <div> Full Stack JavaScript Certificate - GoMyCode</div>
                 <div>Duration:</div>
                 <motion.div
-                  className="w-12 flex  justify-center align-center px-2 border-2 border-[#469DF0]"
+                  className="w-16  flex  justify-center align-center border-2 border-[#469DF0]"
                   whileHover={{
                     scale: 1.1,
                     boxShadow: "0px 0px 8px rgb(255,255,255)",
@@ -62,8 +62,19 @@ const Certification = () => {
                       rel="noopener"
                       target="_blank"
                     >
-                      <button className="section font-LGaramond text-[#469DF0] uppercase font-bold rounded-md center">
-                        view{" "}
+                      <button className="w-full font-LGaramond text-[#469DF0] uppercase rounded-md center">
+                        <span>View</span>{" "}
+                        <svg
+                          className="w-3 text-white inline-block"
+                          viewBox="0 0 24 24"
+                          fill="currentColor"
+                        >
+                          <path
+                            fill-rule="evenodd"
+                            d="M15.75 2.25H21a.75.75 0 01.75.75v5.25a.75.75 0 01-1.5 0V4.81L8.03 17.03a.75.75 0 01-1.06-1.06L19.19 3.75h-3.44a.75.75 0 010-1.5zm-10.5 4.5a1.5 1.5 0 00-1.5 1.5v10.5a1.5 1.5 0 001.5 1.5h10.5a1.5 1.5 0 001.5-1.5V10.5a.75.75 0 011.5 0v8.25a3 3 0 01-3 3H5.25a3 3 0 01-3-3V8.25a3 3 0 013-3h8.25a.75.75 0 010 1.5H5.25z"
+                            clip-rule="evenodd"
+                          />
+                        </svg>
                       </button>
                     </a>
                   </div>
@@ -86,7 +97,7 @@ const Certification = () => {
                 <div> Soft Skills For IT - Great Learning Academy</div>
                 <div>Duration:</div>
                 <motion.div
-                  className="w-12 flex  justify-center align-center px-2 border-2 border-[#469DF0]"
+                  className="w-16 flex  justify-center align-center  border-2 border-[#469DF0]"
                   whileHover={{
                     scale: 1.1,
                     boxShadow: "0px 0px 8px rgb(255,255,255)",
@@ -100,8 +111,19 @@ const Certification = () => {
                       rel="noopener"
                       target="_blank"
                     >
-                      <button className="section font-LGaramond text-[#469DF0] uppercase font-bold rounded-md center">
-                        view{" "}
+                      <button className=" font-LGaramond text-[#469DF0] uppercase font-bold rounded-md center">
+                        <span>View</span>{" "}
+                        <svg
+                          className="w-3 text-white inline-block"
+                          viewBox="0 0 24 24"
+                          fill="currentColor"
+                        >
+                          <path
+                            fill-rule="evenodd"
+                            d="M15.75 2.25H21a.75.75 0 01.75.75v5.25a.75.75 0 01-1.5 0V4.81L8.03 17.03a.75.75 0 01-1.06-1.06L19.19 3.75h-3.44a.75.75 0 010-1.5zm-10.5 4.5a1.5 1.5 0 00-1.5 1.5v10.5a1.5 1.5 0 001.5 1.5h10.5a1.5 1.5 0 001.5-1.5V10.5a.75.75 0 011.5 0v8.25a3 3 0 01-3 3H5.25a3 3 0 01-3-3V8.25a3 3 0 013-3h8.25a.75.75 0 010 1.5H5.25z"
+                            clip-rule="evenodd"
+                          />
+                        </svg>
                       </button>
                     </a>
                   </div>
