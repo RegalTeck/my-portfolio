@@ -10,10 +10,10 @@ import { motion } from "framer-motion";
 const Testimonial = () => {
   return (
     <div
-      className="w-full h-1/2 md:h-screen font-LGaramond mt-20 md:mt-0 px-4 md:px-20"
+      className="w-full min-h-screen font-LGaramond px-4 bg-gradient-to-r from-white-300 to-blue-500"
       id="testimonials"
     >
-      <div className="h-full">
+      <div class=" bg-white bg-opacity-30 rounded-lg shadow-lg backdrop-blur-xl backdrop-filter px-5 py-8 md:py-10">
         <div className="pages text-center text-[#469DF0] font-LGaramond uppercase font-bold ">
           Testimonials and Recommendation
         </div>
@@ -43,29 +43,29 @@ const Testimonial = () => {
         <div className="text-center mb-4 md:text-sm md:mb-0  mt-4">
           See what they are saying about Adewale on Linkedin
         </div>
-        <div className=" md:h-2/4	md:flex md:justify-center md:align-center md:mt-4 md:gap-8">
+
+        <div className="md:flex md:justify-center md:align-start md:mt-4 md:gap-6">
           <img
             src={LImg3}
             alt="Linkdin Recommendation Image"
-            className="mb-2 md:mb-0 md:w-2/5 md:h-2/4	"
+            className="mb-2 md:mb-0 md:w-2/5 md:h-5/6 rounded-md"
           />
           <img
             src={LImg4}
             alt="Linkdin Recommendation Image"
-            className="mb-2 md:mb-0 md:self-center md:w-2/5  md:h-3/5"
+            className="mb-2 md:mb-0 md:mt-8 md:w-2/5 md:h-5/6 md:self-end	rounded-md"
           />
         </div>
-
-        <div className="md:h-2/4 md:flex md:justify-center md:align-center md:-mt-20 md:gap-8">
+        <div className="md:flex md:justify-center md:align-start md:gap-6 md:mt-4">
           <img
             src={LImg2}
             alt="Linkdin Recommendation Image"
-            className="mb-2 md:mb-0 md:w-2/5 md:h-2/4	"
+            className="mb-2 md:mb-0 md:-mt-20 md:w-2/5 md:h-2/4	rounded-md"
           />
           <img
             src={LImg1}
             alt="Linkdin Recommendation Image"
-            className="md:self-center md:w-2/5 md:h-2/4	md:mt-4"
+            className=" md:mt-2 md:w-2/5 md:h-2/4 md:self-end rounded-md"
           />
         </div>
       </div>

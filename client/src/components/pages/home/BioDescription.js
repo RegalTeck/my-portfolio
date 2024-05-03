@@ -22,8 +22,8 @@ const BioDescription = () => {
         whileHover="hover"
         className="text-[#469DF0] rounded-md text-center md:p-2"
       >
-        My name is Adewale <span className="hidden md:inline">Victor</span>{" "}
-        Adeboye,
+        My name is <span className="text-white md:text-[#469DF0]">Adewale</span>{" "}
+        <span className="hidden md:inline">Victor</span> Adeboye,
       </motion.div>
 
       <motion.div className="">
@@ -36,7 +36,7 @@ const BioDescription = () => {
         </span>
       </motion.div>
 
-      <div className="flex gap-2 md:gap-4 w-full">
+      <div className="hidden md:flex md:gap-2 md:gap-4 md:w-full">
         <Connect /> <Resume />
       </div>
     </div>

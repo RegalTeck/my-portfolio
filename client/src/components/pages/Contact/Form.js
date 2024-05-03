@@ -46,7 +46,7 @@ const Form = () => {
             name="user-name"
             placeholder="Your Full Name"
             required
-            className="rounded-md text-[#000] p-2 font-bold	"
+            className="rounded-md text-[#000] p-3 font-bold	"
           />
         </div>
         <div className="p-1 md:p-2  flex flex-col">
@@ -56,7 +56,7 @@ const Form = () => {
             name="user-email"
             placeholder="Your E-mail Address"
             required
-            className="rounded-md text-[#000] p-2 font-bold	"
+            className="rounded-md text-[#000] p-3 font-bold	"
           />
         </div>
         <div className="p-1 md:p-2  flex flex-col">
@@ -65,18 +65,18 @@ const Form = () => {
             name="message"
             placeholder="Hello! Adewale, I have an interesting offer for you..."
             required
-            className="rounded-md p-1 md:p-4 text-[#000] font-bold"
+            className="rounded-md p-4 md:p-4 text-[#000] font-bold"
           />
         </div>
         <motion.div
-          className=" rounded-md px-2 py-2 mt-2  text-white bg-green-600"
+          className=" rounded-md px-2 py-2 mt-2  text-white bg-green-600 mt-14"
           variants={submitBTNVariants}
           initial="initial"
           animate="animate"
           whileHover="hover"
         >
           <button type="submit" value="Send" className="w-full">
-            Send
+            Shoot ----->
           </button>
         </motion.div>
       </form>

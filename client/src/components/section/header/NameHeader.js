@@ -33,7 +33,9 @@ const NameHeader = () => {
         animate="animate"
         whileHover="hover"
       >
-        Adewale<span className="text-[#469DF0]">Regal</span>Adeboye
+        {/* Adewale<span className="text-[#469DF0]"> */}
+        Regal
+        {/* </span>Adeboye */}
       </motion.button>
     </div>
   );
