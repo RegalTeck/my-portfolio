@@ -10,11 +10,11 @@ import { motion } from "framer-motion";
 const Testimonial = () => {
   return (
     <div
-      className="w-full min-h-screen font-LGaramond px-4 bg-gradient-to-r from-white-300 to-blue-500"
+      className="w-full min-h-11/12 md:min-h-screen font-LGaramond px-4 py-8 bg-gradient-to-r from-blue-900 to-blue-400 md:p-10"
       id="testimonials"
     >
       <div class=" bg-white bg-opacity-30 rounded-lg shadow-lg backdrop-blur-xl backdrop-filter px-5 py-8 md:py-10">
-        <div className="pages text-center text-[#469DF0] font-LGaramond uppercase font-bold ">
+        <div className="pages text-center text-white font-LGaramond uppercase font-bold ">
           Testimonials and Recommendation
         </div>
         <div className="w-full flex justify-center align-center">

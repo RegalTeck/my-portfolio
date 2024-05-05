@@ -15,7 +15,7 @@ const ExperienceAndJourney = () => {
   };
   return (
     <div
-      className="w-full min-h-screen mt-10 font-LGaramond md:flex md:items-start md:justify-even md:h-3/4 md:gap-5 px-4  md:px-20 md:mt-0
+      className="w-full min-h-11/12 md:min-h-screen my-12 font-LGaramond md:flex md:items-start md:justify-even md:h-3/4 md:gap-5 px-4  md:px-20 md:py-4
       "
       id="experience"
     >
@@ -86,7 +86,7 @@ const ExperienceAndJourney = () => {
         </div>
       </div>
 
-      <div className="w-full mt-4 md:mt-0 md:w-5/12 md:self-center mb-2 ">
+      <div className="w-full md:mt-0 md:w-5/12 md:self-end ">
         <div className="text-center md:text-start text-[#469DF0] uppercase">
           Journey
         </div>

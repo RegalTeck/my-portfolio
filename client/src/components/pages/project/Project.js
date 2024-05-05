@@ -31,10 +31,10 @@ const Project = () => {
 
   return (
     <div
-      className="w-full min-h-screen font-LGaramond px-4 bg-gradient-to-r from-white-300 to-blue-500"
+      className="w-full min-h-screen font-LGaramond p-4 bg-gradient-to-r from-blue-900 to-blue-400 md:px-10 md:pt-10"
       id="projects"
     >
-      <div class=" bg-white bg-opacity-30 rounded-lg shadow-lg backdrop-blur-xl backdrop-filter px-5 py-8 md:p-10">
+      <div class=" bg-white bg-opacity-30 rounded-lg shadow-lg backdrop-blur-xl backdrop-filter p-5 md:px-10 md:py-10">
         <div className="text-center text-white font-LGaramond uppercase font-bold">
           Projects
         </div>
@@ -53,35 +53,44 @@ const Project = () => {
             {}
           </motion.div>
         </div>
+
         <div className="grid grid-col gap-4 md:grid md:grid-cols-3 md:gap-6 md:mt-6">
           <motion.div
             variants={contentVariants}
             whileHover="hover"
-            className="border-4  border-indigo-200 border-x-indigo-500 p-2"
+            className="bg-[#F8F8FF] 
+            border-4 rounded-md  border-white p-2"
           >
             <div className="">
               <div>
-                <img src={judeobi} alt="judeobi" />
+                <img
+                  src={judeobi}
+                  alt="judeobi"
+                  className="border-2 rounded-md "
+                />
               </div>
               <div className="flex justify-between ">
                 <div className="w-4/6">
-                  <h2 className="text-[#469DF0] mb-2">JudeObi BookShelf</h2>
-                  <p className="mb-2">Access our wide genre of books</p>
-                  <h4 className="text-[#469DF0]">Technologies used</h4>
-                  <div>icons</div>
+                  <h2 className="text-[#469DF0] mb-2 font-semibold mt-1">
+                    JudeObi BookShelf
+                  </h2>
+                  <p className="mb-2 text-black">Access wide genre of books</p>
+                  <h4 className="text-[#469DF0] mb-2">Technologies used</h4>
+                  <div className="text-black">Icons</div>
                 </div>
-                <div className="w-1/5 block">
+                <div className="w-3/12 block">
                   <div className="grid grid-start gap-2 mt-6">
                     <motion.button
                       variants={buttonVariants}
                       whileHover="hover"
-                      className="hover:text-[#469DF0] rounded-md uppercase textSize"
+                      className="bg-[#469DF0] rounded-sm uppercase textSize p-1 text-center"
                     >
                       <a
                         href="https://judobibookshelf.com/"
                         aria-label="GitHub"
                         rel="noopener"
                         target="_blank"
+                        className=""
                       >
                         <span>View</span>{" "}
                         <svg
@@ -100,7 +109,7 @@ const Project = () => {
                     <motion.button
                       variants={buttonVariants}
                       whileHover="hover"
-                      className="hover:text-[#469DF0] rounded-md uppercase textSize"
+                      className="bg-[#469DF0] rounded-sm uppercase textSize p-1 text-center"
                     >
                       <a
                         href="https://judobibookshelf.com/"
@@ -134,25 +143,32 @@ const Project = () => {
           <motion.div
             variants={contentVariants}
             whileHover="hover"
-            className="border-4  border-indigo-200 border-x-indigo-500 p-2"
+            className="bg-[#F8F8FF]
+            border-4 rounded-md  border-white p-2"
           >
             <div className="">
               <div>
-                <img src={arthesticai} alt="artsthetic" />
+                <img
+                  src={arthesticai}
+                  alt="artsthetic"
+                  className="border-2 rounded-md"
+                />
               </div>
               <div className="flex justify-between ">
                 <div className="w-4/6">
-                  <h2 className="text-[#469DF0] mb-2">Artsthetic AI</h2>
-                  <p className="mb-2">Image generation AI application</p>
-                  <h4 className="text-[#469DF0]">Technologies used</h4>
-                  <div>icons</div>
+                  <h2 className="text-[#469DF0] mb-2 font-semibold mt-1">
+                    Artsthetic AI
+                  </h2>
+                  <p className="mb-2 text-black">Image generator AI App</p>
+                  <h4 className="text-[#469DF0] mb-2">Technologies used</h4>
+                  <div className="text-black">Icons</div>
                 </div>
-                <div className="w-1/5 block">
+                <div className="w-3/12 block">
                   <div className="grid grid-start gap-2 mt-6">
                     <motion.button
                       variants={buttonVariants}
                       whileHover="hover"
-                      className="hover:text-[#469DF0] rounded-md uppercase textSize"
+                      className="bg-[#469DF0] rounded-sm uppercase textSize p-1 text-center"
                     >
                       <a
                         href="https://artsthetic-ai-vkr5.onrender.com/"
@@ -177,7 +193,7 @@ const Project = () => {
                     <motion.button
                       variants={buttonVariants}
                       whileHover="hover"
-                      className="hover:text-[#469DF0] rounded-md uppercase textSize"
+                      className="bg-[#469DF0] rounded-sm uppercase textSize p-1 text-center"
                     >
                       <a
                         href="https://github.com/RegalTeck/ARTSTHETIC-AI"
@@ -212,25 +228,32 @@ const Project = () => {
           <motion.div
             variants={contentVariants}
             whileHover="hover"
-            className="border-4  border-indigo-200 border-x-indigo-500 p-2"
+            className="bg-[#F8F8FF]
+            border-4 rounded-md  border-white p-2"
           >
             <div className="">
               <div>
-                <img src={techtrate} alt="TechTrate" />
+                <img
+                  src={techtrate}
+                  alt="TechTrate"
+                  className="border-2 rounded-md"
+                />
               </div>
               <div className="flex justify-between ">
                 <div className="w-4/6">
-                  <h2 className="text-[#469DF0] mb-2">TechTrate</h2>
-                  <p className="mb-2">be a tech litrate</p>
-                  <h4 className="text-[#469DF0]">Technologies used</h4>
-                  <div>icons</div>
+                  <h2 className="text-[#469DF0] mb-2 font-semibold mt-1">
+                    TechTrate
+                  </h2>
+                  <p className="mb-2 text-black">be a tech litrate</p>
+                  <h4 className="text-[#469DF0] mb-2">Technologies used</h4>
+                  <div className="text-black">Icons</div>
                 </div>
-                <div className="w-1/5 block">
+                <div className="w-3/12 block">
                   <div className="grid grid-start gap-2 mt-6">
                     <motion.button
                       variants={buttonVariants}
                       whileHover="hover"
-                      className="hover:text-[#469DF0] rounded-md uppercase textSize"
+                      className="bg-[#469DF0] rounded-sm uppercase textSize p-1 text-center"
                     >
                       <a
                         href=""
@@ -255,7 +278,7 @@ const Project = () => {
                     <motion.button
                       variants={buttonVariants}
                       whileHover="hover"
-                      className="hover:text-[#469DF0] rounded-md uppercase textSize"
+                      className="bg-[#469DF0] rounded-sm uppercase textSize p-1 text-center"
                     >
                       <a
                         href=""

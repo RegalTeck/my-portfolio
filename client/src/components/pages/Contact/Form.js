@@ -76,7 +76,7 @@ const Form = () => {
           whileHover="hover"
         >
           <button type="submit" value="Send" className="w-full">
-            Shoot ----->
+            Shoot
           </button>
         </motion.div>
       </form>

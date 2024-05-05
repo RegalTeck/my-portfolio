@@ -15,7 +15,7 @@ const Certification = () => {
   };
   return (
     <div
-      className="w-full min-h-screen font-LGaramond px-4 md:px-20 md:flex md:items-start md:justify-even md:gap-5"
+      className="w-full min-h-1/2 md:min-h-screen font-LGaramond px-4 py-8 md:py-14   md:px-20 md:flex md:items-start md:justify-even md:gap-5"
       id="certification"
     >
       <div className="md:w-7/12 md:self-start">
@@ -137,7 +137,7 @@ const Certification = () => {
         </div>
       </div>
 
-      <div className="mt-20 md:mt-0 md:w-5/12 md:self-center mb-2">
+      <div className="mt-20 md:mt-0 md:w-5/12 md:self-end mb-2">
         <div className="text-center md:text-start text-[#469DF0] uppercase">
           Awards
         </div>
