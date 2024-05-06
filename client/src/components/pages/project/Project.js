@@ -34,7 +34,7 @@ const Project = () => {
       className="w-full min-h-screen font-LGaramond p-4 bg-gradient-to-r from-blue-950 to-blue-400 md:px-10 md:pt-10"
       id="projects"
     >
-      <div class=" bg-blue border-2 border-blue-400 bg-opacity-30 rounded-lg shadow-lg backdrop-blur-xl backdrop-filter p-5 md:px-10 md:py-10">
+      <div class=" bg-blue border border-blue-400 bg-opacity-30 rounded-lg shadow-lg backdrop-blur-xl backdrop-filter p-5 md:px-10 md:py-10">
         <div className="text-center text-white font-LGaramond uppercase font-bold">
           Projects
         </div>

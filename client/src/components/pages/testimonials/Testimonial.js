@@ -13,7 +13,7 @@ const Testimonial = () => {
       className="w-full min-h-11/12 md:min-h-screen font-LGaramond px-4 py-8 bg-gradient-to-r from-blue-900 to-blue-400 md:p-10"
       id="testimonials"
     >
-      <div class=" bg-white bg-opacity-30 rounded-lg shadow-lg backdrop-blur-xl backdrop-filter px-5 py-8 md:py-10">
+      <div class=" bg-black bg-opacity-10 border border-blue-400 rounded-lg shadow-lg backdrop-blur-xl backdrop-filter px-5 py-8 md:py-10">
         <div className="pages text-center text-white font-LGaramond uppercase font-bold ">
           Testimonials and Recommendation
         </div>

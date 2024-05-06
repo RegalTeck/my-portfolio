@@ -62,93 +62,91 @@ const Skills = () => {
   };
 
   return (
-    <div
-      className="w-full min-h-1/2 md:min-h-screen p-4 bg-gradient-to-r from-blue-900 to-blue-400 md:p-10"
-      id="skills"
-    >
-      <div class=" bg-white bg-opacity-30 rounded-lg shadow-lg backdrop-blur-xl backdrop-filter py-10 md:py-10">
-        <div className="pages text-center text-white font-LGaramond uppercase font-bold">
-          Skills
-        </div>
-        <div className="w-full flex justify-center align-center">
-          <motion.div
-            className="bg-[#101D51] h-0.5 w-10 rounded-md text-center"
-            initial={{
-              opacity: 0,
-            }}
-            animate={{
-              opacity: 1,
-              scale: 1.1,
-              boxShadow: "0px 0px 8px rgb(255,255,255)",
-            }}
-          >
-            {}
-          </motion.div>
-          <div></div>
-        </div>
-        <div className="mt-6 md:mt-8">
-          <div className="flex justify-center align-center ">
-            <img
-              src={reactimg}
-              alt="reactImage"
-              className="w-16 bg-white m-2 rounded-md"
-            />
+    <div className="w-full min-h-1/2 md:min-h-screen p-4  md:p-10" id="skills">
+      <div className="bg-gradient-to-r from-blue-900 to-blue-400  rounded-lg">
+        <div class=" bg-blue bg-opacity-40 rounded-lg shadow-lg backdrop-blur-xl backdrop-filter py-10 md:py-10">
+          <div className="pages text-center text-white font-LGaramond uppercase font-bold">
+            Skills
           </div>
-          <div className="flex justify-center align-center gap-5">
-            <img
-              src={nodeimg}
-              alt="Node Image"
-              className="w-16 bg-white m-2 rounded-md rounded-md"
-            />
-            <img
-              src={expressimg}
-              alt="Express Image"
-              className="w-16 bg-white m-2 rounded-md rounded-md"
-            />
+          <div className="w-full flex justify-center align-center">
+            <motion.div
+              className="bg-[#101D51] h-0.5 w-10 rounded-md text-center"
+              initial={{
+                opacity: 0,
+              }}
+              animate={{
+                opacity: 1,
+                scale: 1.1,
+                boxShadow: "0px 0px 8px rgb(255,255,255)",
+              }}
+            >
+              {}
+            </motion.div>
+            <div></div>
           </div>
+          <div className="mt-6 md:mt-8">
+            <div className="flex justify-center align-center ">
+              <img
+                src={reactimg}
+                alt="reactImage"
+                className="w-16 bg-white m-2 rounded-md"
+              />
+            </div>
+            <div className="flex justify-center align-center gap-5">
+              <img
+                src={nodeimg}
+                alt="Node Image"
+                className="w-16 bg-white m-2 rounded-md rounded-md"
+              />
+              <img
+                src={expressimg}
+                alt="Express Image"
+                className="w-16 bg-white m-2 rounded-md rounded-md"
+              />
+            </div>
 
-          <div className="flex justify-center align-center gap-5">
-            <img
-              src={mongodbimg}
-              alt="Mongodb Image"
-              className="w-16 bg-white m-2 rounded-md"
-            />
-            <img
-              src={reduximg}
-              alt="Redux Image"
-              className="w-16 bg-white m-2 rounded-md"
-            />
-            <img
-              src={cssimg}
-              alt="CSS Image"
-              className="w-16 bg-white m-2 rounded-md"
-            />
-          </div>
+            <div className="flex justify-center align-center gap-5">
+              <img
+                src={mongodbimg}
+                alt="Mongodb Image"
+                className="w-16 bg-white m-2 rounded-md"
+              />
+              <img
+                src={reduximg}
+                alt="Redux Image"
+                className="w-16 bg-white m-2 rounded-md"
+              />
+              <img
+                src={cssimg}
+                alt="CSS Image"
+                className="w-16 bg-white m-2 rounded-md"
+              />
+            </div>
 
-          <div className="flex justify-center align-center gap-5">
-            <img
-              src={tailwindimg}
-              alt="Tailwindt Image"
-              className="w-16 bg-white m-2 rounded-md"
-            />
-            <img
-              src={framerimg}
-              alt="Framer Image"
-              className="w-16 bg-white m-2 rounded-md"
-            />
-          </div>
+            <div className="flex justify-center align-center gap-5">
+              <img
+                src={tailwindimg}
+                alt="Tailwindt Image"
+                className="w-16 bg-white m-2 rounded-md"
+              />
+              <img
+                src={framerimg}
+                alt="Framer Image"
+                className="w-16 bg-white m-2 rounded-md"
+              />
+            </div>
 
-          <div className="flex justify-center align-center">
-            <img
-              src={htmlimg}
-              alt="Html Image"
-              className="w-16 bg-white m-2 rounded-md"
-            />
+            <div className="flex justify-center align-center">
+              <img
+                src={htmlimg}
+                alt="Html Image"
+                className="w-16 bg-white m-2 rounded-md"
+              />
+            </div>
           </div>
-        </div>
-        {/* <div className="grid grid-cols-4 gap-2"> */}
+          {/* <div className="grid grid-cols-4 gap-2"> */}
 
-        {/* <motion.div
+          {/* <motion.div
           transition={{ layout: { duration: 1, type: "spring" } }}
           layout
           variants={cardVariants}
@@ -265,7 +263,7 @@ const Skills = () => {
             </motion.div>
           )}
         </motion.div> */}
-        {/* <motion.div
+          {/* <motion.div
           transition={{ layout: { duration: 1, type: "spring" } }}
           layout
           variants={cardVariants}
@@ -315,10 +313,10 @@ const Skills = () => {
         >
           <div layout="position" className="flex justify-between">
             <div className="w-20 pl--4	"> */}
-        {/* <img src={cssimg} alt="cssImage" />
+          {/* <img src={cssimg} alt="cssImage" />
             </div> */}
-        {/* </div> */}
-        {/* <div>
+          {/* </div> */}
+          {/* <div>
               <motion.button
                 variants={readMoreVariants}
                 whileHover="hover"
@@ -494,7 +492,8 @@ const Skills = () => {
             </motion.div>
           )}
         </motion.div> */}
-        {/* </div> */}
+          {/* </div> */}
+        </div>
       </div>
     </div>
   );
