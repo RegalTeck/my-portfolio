@@ -31,10 +31,10 @@ const Project = () => {
 
   return (
     <div
-      className="w-full min-h-screen font-LGaramond p-4 bg-gradient-to-r from-blue-900 to-blue-400 md:px-10 md:pt-10"
+      className="w-full min-h-screen font-LGaramond p-4 bg-gradient-to-r from-blue-950 to-blue-400 md:px-10 md:pt-10"
       id="projects"
     >
-      <div class=" bg-white bg-opacity-30 rounded-lg shadow-lg backdrop-blur-xl backdrop-filter p-5 md:px-10 md:py-10">
+      <div class=" bg-blue border-2 border-blue-400 bg-opacity-30 rounded-lg shadow-lg backdrop-blur-xl backdrop-filter p-5 md:px-10 md:py-10">
         <div className="text-center text-white font-LGaramond uppercase font-bold">
           Projects
         </div>
@@ -58,8 +58,8 @@ const Project = () => {
           <motion.div
             variants={contentVariants}
             whileHover="hover"
-            className="bg-[#F8F8FF] 
-            border-4 rounded-md  border-white p-2"
+            className="bg-[#ECF3F9] 
+             rounded-md p-2"
           >
             <div className="">
               <div>
@@ -143,8 +143,8 @@ const Project = () => {
           <motion.div
             variants={contentVariants}
             whileHover="hover"
-            className="bg-[#F8F8FF]
-            border-4 rounded-md  border-white p-2"
+            className="bg-[#ECF3F9]
+             rounded-md p-2"
           >
             <div className="">
               <div>
@@ -228,8 +228,8 @@ const Project = () => {
           <motion.div
             variants={contentVariants}
             whileHover="hover"
-            className="bg-[#F8F8FF]
-            border-4 rounded-md  border-white p-2"
+            className="bg-[#ECF3F9]
+             rounded-md p-2"
           >
             <div className="">
               <div>

@@ -20,7 +20,7 @@ const BioDescription = () => {
         variants={contentVariants}
         animate="animate"
         whileHover="hover"
-        className="text-[#469DF0] rounded-md text-center md:p-2"
+        className="text-[#469DF0] rounded-md text-center p-2"
       >
         My name is <span className="text-white md:text-[#469DF0]">Adewale</span>{" "}
         <span className="hidden md:inline">Victor</span> Adeboye,

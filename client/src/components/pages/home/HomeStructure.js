@@ -16,20 +16,20 @@ const HomeStructure = () => {
     // <div className=" w-full  h-screen" id="/">
 
     <div
-      className="min-h-screen w-full flex flex-wrap justify-center items-center px-1 gap-3  md:flex-nowrap md:items-center md:justify-around md:gap-14 md:p-20 "
+      className="min-h-screen w-full flex flex-wrap justify-center items-center pl-10 gap-0 md:flex  md:flex-nowrap md:items-center md:justify-around md:gap-6 md:p-20 md:pr-0"
       id="/"
     >
-      <div className="w-5/12 md:w-2/5 mt-20 md:mt-4">
+      <div className="w-full pr-10 md:px-0 md:w-1/3 mt-20 md:mt-4">
         <BioDescription />
       </div>
-      <div className="w-5/12 md:w-2/6 mt-20 md:mt-4">
-        <BioImage />
-      </div>
-      <div className=" flex align-center justify-center gap-2 gap-4 w-full md:hidden">
-        <Connect /> <Resume />
-      </div>
-      <div className="w-11/12 md:w-1/4 md:h-3/5 mt-4	md:mt-4">
-        <BioQoute />
+      <div className="w-full md:w-3/5 flex gap-2 md:gap-8  md:mt-4 pl-10 md:pl-20 pr-0 md:pr-16 bg-gray-400 rounded-l-full bg-clip-padding backdrop-filter backdrop-blur-sm bg-opacity-10 border-gray-100 ">
+        <div className="w-5/12 md:w-1/2 mt-2 mb-1 md:mt-4 md:mb-1">
+          <BioImage />
+        </div>
+
+        <div className="w-11/12 md:w-1/2 mt-2 mb-1	md:mt-4 md:mb-1">
+          <BioQoute />
+        </div>
       </div>
     </div>
     // </div>

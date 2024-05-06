@@ -18,7 +18,7 @@ const BioQoute = () => {
     <div className="grid grid-col h-full">
       <motion.div
         variants={contentVariants}
-        animate="animate"
+        // animate="animate"
         whileHover="hover"
         className="text-[#469DF0] rounded-md text-center p-2 font-LGaramond self-start"
       >
@@ -26,10 +26,10 @@ const BioQoute = () => {
           options={{
             autoStart: true,
             loop: true,
-            delay: 40,
+            delay: 100,
             strings: [
-              "Tech Gave My life a direction...",
-              "The drive is more than money..",
+              "' Tech Gave My life a direction '",
+              "' The drive is more than money '",
             ],
           }}
         />

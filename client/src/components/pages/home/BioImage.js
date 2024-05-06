@@ -18,11 +18,7 @@ const BioImage = () => {
       variants={imageContainer}
       // whileHover="hover"
     >
-      <img
-        src={homeimg}
-        alt="my image"
-        className="h-full w-full bg-gray-400 rounded-full bg-clip-padding backdrop-filter backdrop-blur-sm bg-opacity-10 border-gray-100"
-      />
+      <img src={homeimg} alt="my image" className="h-full w-full " />
     </motion.div>
   );
 };
