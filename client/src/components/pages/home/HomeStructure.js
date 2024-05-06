@@ -27,7 +27,7 @@ const HomeStructure = () => {
           <BioImage />
         </div>
 
-        <div className="w-11/12 md:w-1/2 mt-2 mb-1	md:mt-4 md:mb-1">
+        <div className="w-11/12 md:w-1/2 mt-2 mb-0	md:mt-4 md:mb-1">
           <BioQoute />
         </div>
       </div>

@@ -10,63 +10,65 @@ import { motion } from "framer-motion";
 const Testimonial = () => {
   return (
     <div
-      className="w-full min-h-11/12 md:min-h-screen font-LGaramond px-4 py-8 bg-gradient-to-r from-blue-900 to-blue-400 md:p-10"
+      className="w-full min-h-11/12 md:min-h-screen font-LGaramond px-2 py-8  md:p-0"
       id="testimonials"
     >
-      <div class=" bg-black bg-opacity-10 border border-blue-400 rounded-lg shadow-lg backdrop-blur-xl backdrop-filter px-5 py-8 md:py-10">
-        <div className="pages text-center text-white font-LGaramond uppercase font-bold ">
-          Testimonials and Recommendation
-        </div>
-        <div className="w-full flex justify-center align-center">
-          <motion.div
-            className="bg-[#101D51] h-0.5 w-3/5 md:w-3/12 rounded-md text-center"
-            initial={{
-              opacity: 0,
-            }}
-            animate={{
-              opacity: 1,
-              scale: 1.1,
-              boxShadow: "0px 0px 8px rgb(255,255,255)",
-            }}
-          >
-            {}
-          </motion.div>
-          <div></div>
-        </div>
-        {/* <div style={{ backgroundImage: "url(${headerimg})" }}>
+      <div className="bg-gradient-to-r from-blue-900 to-blue-400 rounded-md p-4 md:p-10">
+        <div class=" bg-black bg-opacity-10 rounded-lg shadow-lg backdrop-blur-xl backdrop-filter px-5 py-8 md:py-10">
+          <div className="pages text-center text-white font-LGaramond uppercase font-bold ">
+            Testimonials and Recommendation
+          </div>
+          <div className="w-full flex justify-center align-center">
+            <motion.div
+              className="bg-[#101D51] h-0.5 w-3/5 md:w-3/12 rounded-md text-center"
+              initial={{
+                opacity: 0,
+              }}
+              animate={{
+                opacity: 1,
+                scale: 1.1,
+                boxShadow: "0px 0px 8px rgb(255,255,255)",
+              }}
+            >
+              {}
+            </motion.div>
+            <div></div>
+          </div>
+          {/* <div style={{ backgroundImage: "url(${headerimg})" }}>
           {/* <img
             src={headerimg}
             alt="Linkdin Recommendation header"
             className="w-full h-16	"
           /> */}
-        {/* </div>  */}
-        <div className="text-center mb-4 md:text-sm md:mb-0  mt-4">
-          See what they are saying about Adewale on Linkedin
-        </div>
+          {/* </div>  */}
+          <div className="text-center mb-4 md:text-sm md:mb-0  mt-4">
+            See what they are saying about Adewale on Linkedin
+          </div>
 
-        <div className="md:flex md:justify-center md:align-start md:mt-4 md:gap-6">
-          <img
-            src={LImg3}
-            alt="Linkdin Recommendation Image"
-            className="mb-2 md:mb-0 md:w-2/5 md:h-5/6 rounded-md"
-          />
-          <img
-            src={LImg4}
-            alt="Linkdin Recommendation Image"
-            className="mb-2 md:mb-0 md:mt-8 md:w-2/5 md:h-5/6 md:self-end	rounded-md"
-          />
-        </div>
-        <div className="md:flex md:justify-center md:align-start md:gap-6 md:mt-4">
-          <img
-            src={LImg2}
-            alt="Linkdin Recommendation Image"
-            className="mb-2 md:mb-0 md:-mt-20 md:w-2/5 md:h-2/4	rounded-md"
-          />
-          <img
-            src={LImg1}
-            alt="Linkdin Recommendation Image"
-            className=" md:mt-2 md:w-2/5 md:h-2/4 md:self-end rounded-md"
-          />
+          <div className="md:flex md:justify-center md:align-start md:mt-4 md:gap-6">
+            <img
+              src={LImg3}
+              alt="Linkdin Recommendation Image"
+              className="mb-2 md:mb-0 md:w-2/5 md:h-5/6 rounded-md"
+            />
+            <img
+              src={LImg4}
+              alt="Linkdin Recommendation Image"
+              className="mb-2 md:mb-0 md:mt-8 md:w-2/5 md:h-5/6 md:self-end	rounded-md"
+            />
+          </div>
+          <div className="md:flex md:justify-center md:align-start md:gap-6 md:mt-4">
+            <img
+              src={LImg2}
+              alt="Linkdin Recommendation Image"
+              className="mb-2 md:mb-0 md:-mt-20 md:w-2/5 md:h-2/4	rounded-md"
+            />
+            <img
+              src={LImg1}
+              alt="Linkdin Recommendation Image"
+              className=" md:mt-2 md:w-2/5 md:h-2/4 md:self-end rounded-md"
+            />
+          </div>
         </div>
       </div>
     </div>

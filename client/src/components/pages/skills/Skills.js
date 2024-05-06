@@ -64,7 +64,7 @@ const Skills = () => {
   return (
     <div className="w-full min-h-1/2 md:min-h-screen p-4  md:p-10" id="skills">
       <div className="bg-gradient-to-r from-blue-900 to-blue-400  rounded-lg">
-        <div class=" bg-blue bg-opacity-40 rounded-lg shadow-lg backdrop-blur-xl backdrop-filter py-10 md:py-10">
+        <div class=" bg-black bg-opacity-10 rounded-lg shadow-lg backdrop-blur-xl backdrop-filter py-10 md:py-10">
           <div className="pages text-center text-white font-LGaramond uppercase font-bold">
             Skills
           </div>

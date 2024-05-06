@@ -31,10 +31,10 @@ const Project = () => {
 
   return (
     <div
-      className="w-full min-h-screen font-LGaramond p-4 bg-gradient-to-r from-blue-950 to-blue-400 md:px-10 md:pt-10"
+      className="w-full min-h-screen font-LGaramond p-4 md:px-5 md:pt-10"
       id="projects"
     >
-      <div class=" bg-blue border border-blue-400 bg-opacity-30 rounded-lg shadow-lg backdrop-blur-xl backdrop-filter p-5 md:px-10 md:py-10">
+      <div class=" bg-gray-400 rounded-md bg-clip-padding backdrop-filter backdrop-blur-sm bg-opacity-20 border-gray-100 p-5 md:px-10 md:py-10">
         <div className="text-center text-white font-LGaramond uppercase font-bold">
           Projects
         </div>
@@ -58,7 +58,7 @@ const Project = () => {
           <motion.div
             variants={contentVariants}
             whileHover="hover"
-            className="bg-[#ECF3F9] 
+            className="bg-black bg-opacity-10 border-b border-t 
              rounded-md p-2"
           >
             <div className="">
@@ -74,9 +74,9 @@ const Project = () => {
                   <h2 className="text-[#469DF0] mb-2 font-semibold mt-1">
                     JudeObi BookShelf
                   </h2>
-                  <p className="mb-2 text-black">Access wide genre of books</p>
+                  <p className="mb-2 text-white">Access wide genre of books</p>
                   <h4 className="text-[#469DF0] mb-2">Technologies used</h4>
-                  <div className="text-black">Icons</div>
+                  <div className="text-white">Icons</div>
                 </div>
                 <div className="w-3/12 block">
                   <div className="grid grid-start gap-2 mt-6">
@@ -143,7 +143,7 @@ const Project = () => {
           <motion.div
             variants={contentVariants}
             whileHover="hover"
-            className="bg-[#ECF3F9]
+            className="bg-black bg-opacity-10 border-b border-t
              rounded-md p-2"
           >
             <div className="">
@@ -159,9 +159,9 @@ const Project = () => {
                   <h2 className="text-[#469DF0] mb-2 font-semibold mt-1">
                     Artsthetic AI
                   </h2>
-                  <p className="mb-2 text-black">Image generator AI App</p>
+                  <p className="mb-2 text-white">Image generator AI App</p>
                   <h4 className="text-[#469DF0] mb-2">Technologies used</h4>
-                  <div className="text-black">Icons</div>
+                  <div className="text-white">Icons</div>
                 </div>
                 <div className="w-3/12 block">
                   <div className="grid grid-start gap-2 mt-6">
@@ -228,7 +228,7 @@ const Project = () => {
           <motion.div
             variants={contentVariants}
             whileHover="hover"
-            className="bg-[#ECF3F9]
+            className="bg-black bg-opacity-10 border-b border-t
              rounded-md p-2"
           >
             <div className="">
@@ -244,9 +244,9 @@ const Project = () => {
                   <h2 className="text-[#469DF0] mb-2 font-semibold mt-1">
                     TechTrate
                   </h2>
-                  <p className="mb-2 text-black">be a tech litrate</p>
+                  <p className="mb-2 text-white">be a tech litrate</p>
                   <h4 className="text-[#469DF0] mb-2">Technologies used</h4>
-                  <div className="text-black">Icons</div>
+                  <div className="text-white">Icons</div>
                 </div>
                 <div className="w-3/12 block">
                   <div className="grid grid-start gap-2 mt-6">
