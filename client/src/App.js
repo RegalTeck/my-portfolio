@@ -7,7 +7,7 @@ import ExperienceAndJourney from "./components/pages/about/ExperienceAndJourney"
 import Education from "./components/pages/education/Education";
 import Certification from "./components/pages/certification/Certification";
 import Testimonial from "./components/pages/testimonials/Testimonial";
-import Modal from "./components/section/modal/Modal";
+// import Modal from "./components/section/modal/Modal";
 // import OpeningName from "./components/section/welcome/OpeningName";
 import { AnimatePresence } from "framer-motion";
 import Contact from "./components/pages/Contact/Contact";
@@ -16,7 +16,7 @@ import Footer from "./components/section/footer/Footer";
 
 const App = () => {
   // const [openingName, setOpeningName] = useState(true);
-  const [showModal, setShowModal] = useState(true);
+  // const [showModal, setShowModal] = useState(true);
 
   return (
     // <div className="bg-[#101D51] bg-cover bg-center text-white">
@@ -37,23 +37,27 @@ const App = () => {
 
     <div className="textSize bg-[#101D51] text-white font-LGaramond">
       {/* <OpeningName openingName={openingName} setOpeningName={setOpeningName} /> */}
-      <Modal
+
+      {/* <Modal
         showModal={showModal}
         setShowModal={setShowModal}
         // setOpeningName={setShowModal}
       />
-      <AnimatePresence wait onExitComplete={() => setShowModal(false)}>
-        <Header />
-        <HomeStructure setShowModal={setShowModal} />
-        <Project />
-        <ExperienceAndJourney />
-        {/* <Education /> */}
-        <Skills />
-        <Certification />
-        <Testimonial />
-        <Contact />
-        <Footer />
-      </AnimatePresence>
+      <AnimatePresence wait onExitComplete={() => setShowModal(false)}> */}
+
+      <Header />
+      <HomeStructure
+      //setShowModal={setShowModal}
+      />
+      <Project />
+      <ExperienceAndJourney />
+      {/* <Education /> */}
+      <Skills />
+      <Certification />
+      <Testimonial />
+      <Contact />
+      <Footer />
+      {/* </AnimatePresence> */}
     </div>
   );
 };

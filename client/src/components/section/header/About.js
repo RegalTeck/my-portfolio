@@ -127,7 +127,7 @@ const About = () => {
             </Link>
             <hr />
             <Link
-              to="experience"
+              to="jouney"
               smooth={true}
               offset={-100}
               duration={1000}
@@ -166,7 +166,7 @@ const About = () => {
             </Link>
             <hr />
             <Link
-              to="certification"
+              to="awards"
               smooth={true}
               offset={-100}
               duration={1000}

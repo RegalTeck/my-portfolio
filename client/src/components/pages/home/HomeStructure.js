@@ -22,8 +22,8 @@ const HomeStructure = () => {
       <div className="w-full pr-10 md:px-0 md:w-1/3 mt-20 md:mt-4">
         <BioDescription />
       </div>
-      <div className="w-full md:w-3/5 flex gap-2 md:gap-8  -mt-20 md:mt-4 pl-10 md:pl-20 pr-0 md:pr-16 bg-gray-400 rounded-l-full bg-clip-padding backdrop-filter backdrop-blur-sm bg-opacity-10 border-gray-100 ">
-        <div className="w-5/12 md:w-1/2 mt-2 mb-0 md:mt-4 md:mb-1">
+      <div className="w-full md:w-3/5 flex gap-2 md:gap-8   md:mt-4 pl-10 md:pl-20 pr-0 md:pr-16 bg-gray-400 rounded-l-full bg-clip-padding backdrop-filter backdrop-blur-sm bg-opacity-10 border-gray-100 ">
+        <div className="w-5/12 md:w-1/2 mt-2 -mb-2 md:mt-4 md:mb-0">
           <BioImage />
         </div>
 

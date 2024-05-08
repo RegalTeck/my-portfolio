@@ -36,7 +36,7 @@ const BioDescription = () => {
         </span>
       </motion.div>
 
-      <div className="hidden md:flex md:gap-2 md:gap-4 md:w-full">
+      <div className="flex justify-center md:justify-start align-center mt-6 md:mt-0 gap-2 md:gap-4 md:w-full">
         <Connect /> <Resume />
       </div>
     </div>

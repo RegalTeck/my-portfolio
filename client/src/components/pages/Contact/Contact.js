@@ -8,7 +8,7 @@ import Typewriter from "typewriter-effect";
 const Contact = () => {
   return (
     <div
-      className="w-full min-h-screen  font-LGaramond flex flex-col justify-center items-center mt-6 px-6 md:mt-10 md:px-20"
+      className="w-full min-h-11/12 md:min-h-screen  font-LGaramond flex flex-col justify-center items-center mb-8 mt-4 md:mt-10 md:mb-0 px-6  md:px-20"
       id="contact"
     >
       <div className="pages text-center text-[#469DF0] font-LGaramond uppercase font-bold">

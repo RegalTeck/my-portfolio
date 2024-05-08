@@ -31,7 +31,7 @@ const Project = () => {
 
   return (
     <div
-      className="w-full min-h-screen font-LGaramond p-4 md:px-5 md:pt-10"
+      className="w-full min-h-screen font-LGaramond px-4 py-8 md:px-6 md:py-10"
       id="projects"
     >
       <div class=" bg-gray-400 rounded-md bg-clip-padding backdrop-filter backdrop-blur-sm bg-opacity-20 border-gray-100 p-5 md:px-10 md:py-10">
@@ -54,7 +54,7 @@ const Project = () => {
           </motion.div>
         </div>
 
-        <div className="grid grid-col gap-4 md:grid md:grid-cols-3 md:gap-6 md:mt-6">
+        <div className="grid grid-col gap-8 md:grid md:grid-cols-3 md:gap-6 mt-4 md:mt-6">
           <motion.div
             variants={contentVariants}
             whileHover="hover"
