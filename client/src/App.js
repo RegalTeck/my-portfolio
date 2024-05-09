@@ -6,6 +6,7 @@ import Project from "./components/pages/project/Project";
 import ExperienceAndJourney from "./components/pages/about/ExperienceAndJourney";
 import Education from "./components/pages/education/Education";
 import Certification from "./components/pages/certification/Certification";
+import Awards from "./components/pages/awards/Awards";
 import Testimonial from "./components/pages/testimonials/Testimonial";
 // import Modal from "./components/section/modal/Modal";
 // import OpeningName from "./components/section/welcome/OpeningName";
@@ -54,6 +55,7 @@ const App = () => {
       {/* <Education /> */}
       <Skills />
       <Certification />
+      <Awards />
       <Testimonial />
       <Contact />
       <Footer />

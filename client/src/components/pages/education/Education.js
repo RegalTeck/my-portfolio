@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 
 const Education = () => {
   return (
-    <div className=" h-screen w-full font-LGaramond px-20" id="education">
+    <div className=" min-h-screen w-full font-LGaramond px-20" id="education">
       <div className="pages text-center text-[#469DF0] font-LGaramond uppercase font-bold">
         Education
       </div>

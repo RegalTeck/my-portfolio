@@ -4,6 +4,7 @@ import BioImage from "./BioImage";
 import Resume from "../../section/resume/Resume";
 import Connect from "../../section/getInTouch/Connect";
 import BioQoute from "./BioQoute";
+import backgroundimage from "./assets/backgroundimage.jpg";
 
 // const HomeStructure = ({ setShowModal }) => {
 //   useEffect(() => {
@@ -16,9 +17,17 @@ const HomeStructure = () => {
     // <div className=" w-full  h-screen" id="/">
 
     <div
-      className="min-h-screen w-full flex flex-wrap justify-center items-center pl-10 gap-0 md:flex  md:flex-nowrap md:items-center md:justify-around md:gap-6 md:p-20 md:pr-0"
+      className="min-h-screen w-full flex flex-wrap justify-center items-center pl-10 gap-0 md:flex  md:flex-nowrap md:items-center md:justify-around md:gap-6 md:p-20 md:pr-0
+           "
+      // style={{
+      //   background: linear - gradient(rgba(0, 0, 0, 0.5), transparent),
+      //   backgroundImage: `url(${backgroundimage})`,
+      // }}
       id="/"
     >
+      {/* <div>
+        <img src={backgroundimage} alt="my image" className="h-full w-full " />
+      </div> */}
       <div className="w-full pr-10 md:px-0 md:w-1/3 mt-20 md:mt-4">
         <BioDescription />
       </div>
