@@ -1,6 +1,8 @@
 import React from "react";
 import gmcCert from "./assets/gmcCert.png";
 import demoDayCert from "./assets/demoDayCert.jpg";
+import AgileScrumSimplilearn from "./assets/AgileScrumSimplilearn.jpeg";
+import softskillsgreatlearning from "./assets/softskillsgreatlearning.PNG";
 import { motion } from "framer-motion";
 
 const Certification = () => {
@@ -15,7 +17,7 @@ const Certification = () => {
   };
   return (
     <div
-      className="w-full min-h-11/12 md:min-h-screen font-LGaramond px-10 pb-8 pt-10 md:pb-14 md:pt-6   md:px-20 "
+      className="w-full min-h-11/12 md:min-h-screen font-LGaramond px-4 pb-8 pt-10 md:pb-14 md:pt-6   md:px-20 "
       id="certification"
     >
       {/* <div className="w-full min-h-11/12"> */}
@@ -39,13 +41,13 @@ const Certification = () => {
         <div></div>
       </div>
 
-      <div className="w-full md:min-h-screen flex flex-col gap-4 md:flex md:gap-4">
-        <div className="md:w-2/3 md:h-2/3 border-b-2 rounded-md pb-1 ">
+      <div className="w-full flex flex-col gap-4 md:flex md:gap-4">
+        <div className="md:w-2/5 md:h-2/5 border-b-2 rounded-md pb-1 ">
           <img
             src={gmcCert}
             alt="Full Stack JavaScript Developer - GoMYCode
               "
-            className="w-full border-2 rounded-md  "
+            className="w-full rounded-md  "
           />
           <div className="flex justify-between mt-1">
             <div className="title">
@@ -89,16 +91,14 @@ const Certification = () => {
           </div>
         </div>
 
-        <div className="md:w-2/3 md:h-2/3 self-center	 border-b-2 rounded-md pb-1">
+        <div className="md:w-2/5 md:h-2/5 self-center	 border-b-2 rounded-md pb-1">
           <img
-            src={demoDayCert}
+            src={AgileScrumSimplilearn}
             alt="Soft Skills For IT - Great Learning Academy "
-            className="w-full border-2 rounded-md  "
+            className="w-full border rounded-md  "
           />
           <div className="flex justify-between mt-1">
-            <div className="title">
-              Soft Skills For IT - Great Learning Academy{" "}
-            </div>
+            <div className="title">Agile Scrum Foundation - Simplilearn</div>
             <motion.div
               className="w-16  flex  justify-center align-center border-2 border-[#469DF0] rounded-sm"
               whileHover={{
@@ -109,8 +109,8 @@ const Certification = () => {
             >
               <div>
                 <a
-                  href="https://drive.google.com/file/d/1_d4IbPSQw3npaJfnVS0NNoEvlLyaG3f2/view?usp=drive_link"
-                  aria-label="GREAT LEARNING SOFT SKILL CERTIFICATE IMAGE"
+                  href="https://www.simplilearn.com/skillup-certificate-landing?token=eyJjb3Vyc2VfaWQiOiIxIiwiY2VydGlmaWNhdGVfdXJsIjoiaHR0cHM6XC9cL2NlcnRpZmljYXRlcy5zaW1wbGljZG4ubmV0XC9zaGFyZVwvdGh1bWJfNDU3ODYzMF8xNjk3MjkzNDk0LnBuZyIsInVzZXJuYW1lIjoiQURFV0FMRSBWSUNUT1IgQURFQk9ZRSAifQ&utm_source=shared-certificate&utm_medium=app_lms&utm_campaign=shared-certificate-promotion&referrer=https%3A%2F%2Fcertificates.simplicdn.net%2Fshare%2Fthumb_4578630_1697293494.png&_branch_match_id=1312693793579667041&_branch_referrer=H4sIAAAAAAAAA8soKSkottLXL87MLcjJ1EssKNDLyczL1nexSA4LKU7MC3FJAgAT7%2Fq5IwAAAA%3D%3D"
+                  aria-label="Agile Scrum Foundation CERTIFICATE IMAGE"
                   rel="noopener"
                   target="_blank"
                 >
@@ -137,10 +137,16 @@ const Certification = () => {
           </div>
         </div>
 
-        <div className="md:w-2/3 md:h-2/3 self-end border-b-2 rounded-md pb-1">
-          <img src={gmcCert} alt="" className="w-full border-2 rounded-md  " />
+        <div className="md:w-2/5 md:h-2/5 self-end border-b-2 rounded-md pb-1">
+          <img
+            src={softskillsgreatlearning}
+            alt=""
+            className="w-full rounded-md  "
+          />
           <div className="flex justify-between mt-1">
-            <div className="title">GREAT LEARNING SOFT SKILL CERTIFICATE</div>
+            <div className="title">
+              Soft Skills for IT - Great Learning Academy
+            </div>
             <motion.div
               className="w-16  flex  justify-center align-center border-2 border-[#469DF0] rounded-sm"
               whileHover={{
@@ -151,8 +157,8 @@ const Certification = () => {
             >
               <div>
                 <a
-                  href="https://drive.google.com/file/d/1_d4IbPSQw3npaJfnVS0NNoEvlLyaG3f2/view?usp=drive_link"
-                  aria-label="GREAT LEARNING SOFT SKILL CERTIFICATE IMAGE"
+                  href="https://drive.google.com/file/d/1_d4IbPSQw3npaJfnVS0NNoEvlLyaG3f2/view"
+                  aria-label="SOFT SKILL FOR IT CERTIFICATE IMAGE"
                   rel="noopener"
                   target="_blank"
                 >

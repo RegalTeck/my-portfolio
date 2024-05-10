@@ -11,15 +11,14 @@ import {
   AiOutlineCaretRight,
 } from "react-icons/ai";
 
-const RESUME_File_URL =
-  "http://localhost:3000/Adewale Victor Adeboye Resume Full Stack Web Developer.pdf";
+const RESUME_File_URL = "http://localhost:3000/Adewale-Adeboye-Resume.pdf";
 
 const Resume = () => {
   const downloadFileAtURL = (url) => {
     const Adewale_Adeboye_Resume = url.split("/").pop();
     const aTag = document.createElement("a");
     aTag.href = url;
-    aTag.setAttribute("download", "Adewale Victor Adeboye Resume");
+    aTag.setAttribute("download", "Adewale Adeboye Resume");
     document.body.appendChild(aTag);
     aTag.click();
     aTag.remove();
@@ -87,7 +86,7 @@ const Resume = () => {
               </svg>
             </button>
             <a
-              href="https://drive.google.com/file/d/1duuADgRLgg0Rsj6D9Fpv5hBYr_2akctP/view?usp=drive_link"
+              href="https://drive.google.com/file/d/1iwh1Dl5-AMwX_h_CV9XP6MDLczV1GDw8/view?usp=sharing"
               aria-label="View CV"
               rel="noopener"
               target="_blank"

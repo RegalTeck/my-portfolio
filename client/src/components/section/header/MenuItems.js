@@ -21,9 +21,9 @@ const MenuItems = ({ showMenu, active }) => {
           : "hidden"
       }
     >
-      <Close onClick={showMenu} className="cursor-pointer" />
+      <Close onClick={showMenu} className="cursor-pointer -mt-56" />
       <motion.li
-        className=" rounded-md px-1 pt-0.5"
+        className="rounded-md px-2 pt-0.5 bg-black bg-opacity-10 shadow-lg backdrop-blur-xl backdrop-filter"
         variants={liVariants}
         initial="initial"
         animate="animate"
@@ -39,8 +39,9 @@ const MenuItems = ({ showMenu, active }) => {
           Home
         </Link>
       </motion.li>
+
       <motion.li
-        className=" rounded-md px-1 pt-0.5"
+        className="rounded-md px-2 pt-0.5 bg-black bg-opacity-10 shadow-lg backdrop-blur-xl backdrop-filter"
         variants={liVariants}
         initial="initial"
         animate="animate"
@@ -58,7 +59,7 @@ const MenuItems = ({ showMenu, active }) => {
       </motion.li>
 
       <motion.li
-        className=" rounded-md border-2 border-[#469DF0] active:border-white duration-300 active:text-white"
+        className=" rounded-sm border-2 border-[#F5F5F5] active:border-white duration-300 active:text-white"
         variants={liVariants}
         initial="initial"
         animate="animate"
@@ -86,7 +87,7 @@ const MenuItems = ({ showMenu, active }) => {
           </motion.li> */}
 
       <motion.li
-        className=" rounded-md px-1 mt-96 pt-0.5"
+        className="rounded-md px-2 pt-0.5 mt-56 bg-black bg-opacity-10 shadow-lg backdrop-blur-xl backdrop-filter"
         variants={liVariants}
         initial="initial"
         animate="animate"

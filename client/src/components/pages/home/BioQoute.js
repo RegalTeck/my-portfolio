@@ -2,6 +2,7 @@ import React from "react";
 import Socials from "../../section/socials/Socials";
 import Typewriter from "typewriter-effect";
 import { motion } from "framer-motion";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 const BioQoute = () => {
   const contentVariants = {
@@ -20,15 +21,15 @@ const BioQoute = () => {
         variants={contentVariants}
         // animate="animate"
         whileHover="hover"
-        className="text-[#469DF0] rounded-md text-center p-2 font-LGaramond self-start"
+        className="text-[#ebedef] rounded-md text-center p-2 font-LGaramond self-start"
       >
         <Typewriter
           options={{
             autoStart: true,
             loop: true,
-            delay: 100,
+            delay: 200,
             strings: [
-              "' Tech Gave My life a direction '",
+              " ` Tech gave my life a direction `",
               "' The drive is more than money '",
             ],
           }}

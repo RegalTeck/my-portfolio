@@ -34,11 +34,11 @@ const Awards = () => {
         </motion.div>
       </div>
 
-      <div className="flex justify-center align-center  gap-4 bg-gray-400 rounded-md bg-clip-padding backdrop-filter backdrop-blur-sm bg-opacity-20 border-gray-100 p-1 pt-4 md:py-4 md:px-0">
-        <div className="w-2/5 align-center">
+      <div className="flex justify-center align-center gap-2 md:gap-4 bg-gray-400 rounded-md bg-clip-padding backdrop-filter backdrop-blur-sm bg-opacity-20 border-gray-100 p-1 pt-4 md:py-4 md:px-0">
+        <div className="w-2/5 md:w-2/5 align-center">
           <img
             src={demoDayCert}
-            alt="Soft Skills For IT - Great Learning Academy "
+            alt="GoMyCode Demo Day Award "
             className="w-full border-2 rounded-md  "
           />
         </div>
@@ -46,7 +46,7 @@ const Awards = () => {
           // variants={contentVariants}
           // animate="animate"
           // whileHover="hover"
-          className="w-1/2 md:w-2/5 md:self-center"
+          className="w-7/12	 md:w-2/5 md:self-center"
         >
           My Artsthetic AI project was awarded the third best demo day project
           at GoMyCode Nigeria. Excelling in functionalities, design, creativity

@@ -44,25 +44,18 @@ const ExperienceAndJourney = () => {
 
         <div className="grid grid-col gap-2 mt-4 ">
           <p>
-            Adewale Adeboye is a certified full-stack developer trained by
-            GoMyCode, with additional certification courses from Udemy and
-            Simpli Learn. I have built applications using wide range of
-            cutting-edge modern technologies. On the{" "}
-            <span className="text-[#469DF0]">front-end:</span> React.js and
-            Next.js. <br /> On the{" "}
-            <span className="text-[#469DF0]">back-end:</span> Node.Js and
-            Express.Js while handling{" "}
-            <span className="text-[#469DF0]">database</span> with MongoDB.{" "}
-            <br /> I develop{" "}
-            <span className="text-[#469DF0]">mobile apps:</span> with React
-            Native and Flutter. With experience on real-life projects spanning
-            E-commerce and Edutech, I am committed to continuous growth. In
-            addition to my tecnical skills, I also invested in{" "}
-            <span className="text-[#469DF0]">soft skills </span>to enhance
-            collaboration. Coupled with a background in mass communication and{" "}
-            <span className="text-[#469DF0]">Agile scrum experience,</span> he
-            excels in communication and teamwork. I am focused on user-centric
-            solutions and driving results.
+            <span className="text-[#469DF0]">Adewale Adeboye</span> is a
+            certified full-stack developer trained by GoMyCode, with additional
+            certification courses from Udemy and Simpli Learn. I am a solution
+            provider, user-centric and result oriented full stack developer. I
+            bring to the table a rich blend of creativity and good team spirit.
+            With high efficiency in using modern cutting edge technologies to
+            build scalable web applications. I have experience on real-life
+            projects spanning E-commerce and Edtech. I have worked with React,
+            Next.js, Redux, CSS and Tailwind on the front end, Node.js,
+            Express.js and MongoDB on the backend. Including React Native and
+            Fluetter for mobile apps. In addition, I continuously invested in my
+            soft skills to enhance collaboration.
           </p>
         </div>
       </div>
@@ -100,7 +93,8 @@ const ExperienceAndJourney = () => {
           stack technologies to build wide range of projects.
           <div className="mt-2">
             <span className="text-[#469DF0]">Looking ahead,</span> my aspiration
-            is to expand my skill set to React Native for Apps development.
+            is to create big tech solutions, expand my skill set and be a
+            motivation to others.
           </div>
         </motion.div>
       </div>
